@@ -21,7 +21,7 @@
     "contentful": "^10.10.0",
     "framer-motion": "^11.1.9",
     "headcodecms": "^0.0.2",
-    "next": "^14.0.4",
+    "next": "^14.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-spring-bottom-sheet": "^3.4.1",
