@@ -8,15 +8,22 @@ import Features from '@/components/features'
 import FeaturesBlocks from '@/components/features-blocks'
 import Testimonials from '@/components/testimonials'
 import Newsletter from '@/components/newsletter'
+import { HeroScrollDemo } from '@/components/container-scroll-animation/HeroScroll'
+import Ready from '@/components/animations/are-you-ready-lottie/are-you-ready-lottie'
+
 
 export default function Home() {
   return (
     <>
+     
       <Hero />
+      <HeroScrollDemo />
+      <Ready />
       <Features />
       <FeaturesBlocks />
       <Testimonials />
       <Newsletter />
+  
     </>
   )
 }

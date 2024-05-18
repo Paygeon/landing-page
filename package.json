@@ -6,8 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "deploy": "npm run build && gh-pages -d out"
   },
+
   "dependencies": {
     "@headlessui/react": "^1.7.17",
     "@react-three/drei": "^9.105.6",
@@ -18,13 +21,11 @@
     "@types/react-dom": "^18.2.17",
     "aos": "^3.0.0-beta.6",
     "clsx": "^2.1.1",
-    "contentful": "^10.10.0",
     "framer-motion": "^11.1.9",
-    "headcodecms": "^0.0.2",
+    "lottie-web": "^5.12.2",
     "next": "^14.0.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-spring-bottom-sheet": "^3.4.1",
     "tailwind-merge": "^2.3.0",
     "three": "^0.164.1",
     "three-globe": "^2.31.0",
@@ -34,6 +35,7 @@
     "@tailwindcss/forms": "^0.5.7",
     "@types/aos": "^3.0.7",
     "autoprefixer": "^10.4.16",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.32",
     "tailwindcss": "^3.3.6"
   }

@@ -20,19 +20,19 @@ const TermsContent: React.FC = () => {
     }}
   />
   <div data-custom-class="body">
-    <div align="center" style={{ textAlign: "left" }}>
+    <div style={{ textAlign: "left" }}>
       <div
         className="MsoNormal"
         data-custom-class="title"
         style={{ lineHeight: "1.5" }}
       >
-        <bdt className="block-component">
+        <div className="block-component">
           <span style={{ fontSize: 19 }} />
-        </bdt>
-        <bdt className="question">
+        </div>
+        <div className="question">
           <strong>TERMS AND CONDITIONS</strong>
-        </bdt>
-        <bdt className="statement-end-if-in-editor" />
+        </div>
+        <div className="statement-end-if-in-editor" />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <br />
@@ -43,9 +43,9 @@ const TermsContent: React.FC = () => {
         style={{ lineHeight: "1.5" }}
       >
         <strong>Last updated</strong>{" "}
-        <bdt className="question">
+        <div className="question">
           <strong>May 14, 2024</strong>
-        </bdt>
+        </div>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.1" }}>
         <br />
@@ -64,15 +64,15 @@ const TermsContent: React.FC = () => {
         </strong>
       </div>
     </div>
-    <div align="center" style={{ textAlign: "left" }}>
+    <div style={{ textAlign: "left" }}>
       <div className="MsoNormal" id="agreement" style={{ lineHeight: "1.5" }}>
-        <a name="_6aa3gkhykvst" />
+        <a id="_6aa3gkhykvst" />
       </div>
     </div>
-    <div align="center" style={{ lineHeight: 1 }}>
+<div style={{ textAlign: "center", lineHeight: 1 }}>
       <br />
     </div>
-    <div align="center" style={{ textAlign: "left" }}>
+    <div style={{ textAlign: "left" }}>
       <div
         className="MsoNormal"
         data-custom-class="body_text"
@@ -83,145 +83,127 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           We are{" "}
-          <bdt
+          <div
             className="block-container question question-in-editor"
             data-id="9d459c4e-c548-e5cb-7729-a118548965d2"
             data-type="question"
           >
             Lendflow Sucks LLC
-          </bdt>
-          <bdt className="block-component" />, doing business as{" "}
-          <bdt className="question">Lendflow Sucks</bdt>
-          <bdt className="block-component" />
-          <bdt className="statement-end-if-in-editor" /> (
-          <bdt className="block-component" />"<strong>Company</strong>," "
+          </div>
+          <div className="block-component" />, doing business as{" "}
+          <div className="question">Lendflow Sucks</div>
+          <div className="block-component" />
+          <div className="statement-end-if-in-editor" /> (
+          <div className="block-component" />"<strong>Company</strong>," "
           <strong>we</strong>," "<strong>us</strong>," "<strong>our</strong>"
-          <bdt className="statement-end-if-in-editor" />)
+          <div className="statement-end-if-in-editor" />)
           <span
             style={{
               fontSize: "11.0pt",
               lineHeight: "115%",
-              msoFareastFontFamily: "Calibri",
-              color: "#595959",
-              msoThemecolor: "text1",
-              msoThemetint: 166
+              
+              color: "#595959"
             }}
           >
             <span
               style={{
                 fontSize: "11.0pt",
                 lineHeight: "115%",
-                msoFareastFontFamily: "Calibri",
-                color: "#595959",
-                msoThemecolor: "text1",
-                msoThemetint: 166
+                
+                color: "#595959"
               }}
             >
               <span
                 style={{
                   fontSize: "11.0pt",
                   lineHeight: "115%",
-                  msoFareastFontFamily: "Calibri",
-                  color: "#595959",
-                  msoThemecolor: "text1",
-                  msoThemetint: 166
+                  
+                  color: "#595959"
                 }}
               >
-                <bdt className="question">
-                  <bdt className="block-component" />
-                </bdt>
+                <div className="question">
+                  <div className="block-component" />
+                </div>
                 <span
                   style={{
                     fontSize: "11.0pt",
                     lineHeight: "115%",
-                    msoFareastFontFamily: "Calibri",
-                    color: "#595959",
-                    msoThemecolor: "text1",
-                    msoThemetint: 166
+                    
+                    color: "#595959"
                   }}
                 >
-                  <bdt className="block-component" />
+                  <div className="block-component" />
                 </span>
                 , a company registered in
-                <bdt className="block-component" />
-                <bdt className="block-component" />
-                <bdt className="block-component" />{" "}
+                <div className="block-component" />
+                <div className="block-component" />
+                <div className="block-component" />{" "}
                 <span
                   style={{
                     fontSize: "11.0pt",
                     lineHeight: "115%",
-                    msoFareastFontFamily: "Calibri",
-                    color: "#595959",
-                    msoThemecolor: "text1",
-                    msoThemetint: 166
+                    
+                    color: "#595959"
                   }}
                 >
                   <span
                     style={{
                       fontSize: "11.0pt",
                       lineHeight: "115%",
-                      msoFareastFontFamily: "Calibri",
-                      color: "#595959",
-                      msoThemecolor: "text1",
-                      msoThemetint: 166
+                      
+                      color: "#595959"
                     }}
                   >
-                    <bdt className="question">Delaware</bdt>,{" "}
-                    <bdt className="question">United States</bdt>
+                    <div className="question">Delaware</div>,{" "}
+                    <div className="question">United States</div>
                   </span>
                 </span>
-                <bdt className="statement-end-if-in-editor" />
-                <bdt className="block-component" />
+                <div className="statement-end-if-in-editor" />
+                <div className="block-component" />
               </span>
             </span>
           </span>
         </span>{" "}
-        at <bdt className="question">1111B S Governors Ave</bdt>
-        <bdt className="block-component" />,{" "}
-        <bdt className="question">6469</bdt>
+        at <div className="question">1111B S Governors Ave</div>
+        <div className="block-component" />,{" "}
+        <div className="question">6469</div>
         <span
           style={{
             fontSize: "11.0pt",
             lineHeight: "115%",
-            msoFareastFontFamily: "Calibri",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            
+            color: "#595959"
           }}
         >
           <span
             style={{
               fontSize: "11.0pt",
               lineHeight: "115%",
-              msoFareastFontFamily: "Calibri",
-              color: "#595959",
-              msoThemecolor: "text1",
-              msoThemetint: 166
+              
+              color: "#595959"
             }}
           >
-            <bdt className="statement-end-if-in-editor" />
+            <div className="statement-end-if-in-editor" />
           </span>
         </span>
-        , <bdt className="question">Dover</bdt>
+        , <div className="question">Dover</div>
         <span style={{ fontSize: 15 }}>
           <span data-custom-class="body_text">
             <span style={{ fontSize: 15 }}>
               <span data-custom-class="body_text">
                 <span style={{ color: "rgb(89, 89, 89)" }}>
-                  <bdt className="block-component" />
-                  <bdt className="block-component" />,{" "}
-                  <bdt className="question">DE</bdt>
-                  <bdt className="statement-end-if-in-editor" />
-                  <bdt className="block-component" />
-                  <bdt className="block-component" />{" "}
-                  <bdt className="question">19904</bdt>
-                  <bdt className="statement-end-if-in-editor" />
+                  <div className="block-component" />
+                  <div className="block-component" />,{" "}
+                  <div className="question">DE</div>
+                  <div className="statement-end-if-in-editor" />
+                  <div className="block-component" />
+                  <div className="block-component" />{" "}
+                  <div className="question">19904</div>
+                  <div className="statement-end-if-in-editor" />
                 </span>
               </span>
             </span>
@@ -231,33 +213,29 @@ const TermsContent: React.FC = () => {
           style={{
             fontSize: "11.0pt",
             lineHeight: "115%",
-            msoFareastFontFamily: "Calibri",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            
+            color: "#595959"
           }}
         >
           <span
             style={{
               fontSize: "11.0pt",
               lineHeight: "115%",
-              msoFareastFontFamily: "Calibri",
-              color: "#595959",
-              msoThemecolor: "text1",
-              msoThemetint: 166
+              
+              color: "#595959"
             }}
           >
-            <bdt className="else-block" />
+            <div className="else-block" />
           </span>
         </span>
-        <bdt className="statement-end-if-in-editor">.</bdt>
-        <bdt className="block-component" />
+        <div className="statement-end-if-in-editor">.</div>
+        <div className="block-component" />
       </div>
     </div>
-    <div align="center" style={{ lineHeight: 1 }}>
+<div style={{ textAlign: "center", lineHeight: 1 }}>
       <br />
     </div>
-    <div align="center" style={{ textAlign: "left" }}>
+    <div style={{ textAlign: "left" }}>
       <div
         className="MsoNormal"
         data-custom-class="body_text"
@@ -268,27 +246,25 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
-          We operate <bdt className="block-component" />
+          We operate <div className="block-component" />
           the website{" "}
           <span style={{ color: "rgb(0, 58, 250)" }}>
-            <bdt className="question">https://lendflow.sucks</bdt>
+            <div className="question">https://lendflow.sucks</div>
           </span>{" "}
-          (the <bdt className="block-component" />"<strong>Site</strong>"
-          <bdt className="statement-end-if-in-editor" />)
-          <bdt className="block-component" />
-          <bdt className="block-component" />, as well as any other related
+          (the <div className="block-component" />"<strong>Site</strong>"
+          <div className="statement-end-if-in-editor" />)
+          <div className="block-component" />
+          <div className="block-component" />, as well as any other related
           products and services that refer or link to these legal terms (the{" "}
-          <bdt className="block-component" />"<strong>Legal Terms</strong>"
-          <bdt className="statement-end-if-in-editor" />) (collectively, the{" "}
-          <bdt className="block-component" />"<strong>Services</strong>"
-          <bdt className="statement-end-if-in-editor" />
+          <div className="block-component" />"<strong>Legal Terms</strong>"
+          <div className="statement-end-if-in-editor" />) (collectively, the{" "}
+          <div className="block-component" />"<strong>Services</strong>"
+          <div className="statement-end-if-in-editor" />
           ).
-          <bdt className="block-component" />
+          <div className="block-component" />
         </span>
       </div>
       <div className="MsoNormal" style={{ lineHeight: 1 }}>
@@ -299,11 +275,11 @@ const TermsContent: React.FC = () => {
         data-custom-class="body_text"
         style={{ lineHeight: "1.5" }}
       >
-        <bdt className="question">
+        <div className="question">
           We provide a fintech-as-a-service marketplace enabling B2B businesses
           to easily embed and build their own fintech inside their own
           environment for free.
-        </bdt>
+        </div>
       </div>
       <div
         className="MsoNormal"
@@ -315,12 +291,10 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
-          <bdt className="statement-end-if-in-editor" />
+          <div className="statement-end-if-in-editor" />
         </span>
       </div>
       <div className="MsoNormal" style={{ lineHeight: 1 }}>
@@ -336,34 +310,32 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           You can contact us by{" "}
-          <bdt className="block-component">
-            email at <bdt className="question">support@lendflow.sucks</bdt>
-            <bdt className="block-component" /> or by mail to{" "}
-            <bdt className="question">1111B S Governors Ave</bdt>
-            <bdt className="block-component" />,{" "}
-            <bdt className="question">6469</bdt>
-            <bdt className="statement-end-if-in-editor" />,{" "}
-            <bdt className="question">Dover</bdt>
-            <bdt className="block-component" />
-            <bdt className="block-component" />,{" "}
-            <bdt className="question">DE</bdt>
-            <bdt className="statement-end-if-in-editor" />
-            <bdt className="block-component" />
-            <bdt className="block-component" />{" "}
-            <bdt className="question">19904</bdt>
-            <bdt className="statement-end-if-in-editor" />
-            <bdt className="block-component" />
-            <bdt className="block-component">,&nbsp;</bdt>
-            <bdt className="question">United States</bdt>
-            <bdt className="statement-end-if-in-editor" />
-            <bdt className="block-component" />.
-          </bdt>
+          <div className="block-component">
+            email at <div className="question">support@lendflow.sucks</div>
+            <div className="block-component" /> or by mail to{" "}
+            <div className="question">1111B S Governors Ave</div>
+            <div className="block-component" />,{" "}
+            <div className="question">6469</div>
+            <div className="statement-end-if-in-editor" />,{" "}
+            <div className="question">Dover</div>
+            <div className="block-component" />
+            <div className="block-component" />,{" "}
+            <div className="question">DE</div>
+            <div className="statement-end-if-in-editor" />
+            <div className="block-component" />
+            <div className="block-component" />{" "}
+            <div className="question">19904</div>
+            <div className="statement-end-if-in-editor" />
+            <div className="block-component" />
+            <div className="block-component">,&nbsp;</div>
+            <div className="question">United States</div>
+            <div className="statement-end-if-in-editor" />
+            <div className="block-component" />.
+          </div>
         </span>
       </div>
       <div className="MsoNormal" style={{ lineHeight: 1 }}>
@@ -379,23 +351,21 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           These Legal Terms constitute a legally binding agreement made between
           you, whether personally or on behalf of an entity (
-          <bdt className="block-component" />"<strong>you</strong>"
-          <bdt className="statement-end-if-in-editor" />
-          ), and <bdt className="question">Lendflow Sucks LLC</bdt>, concerning
+          <div className="block-component" />"<strong>you</strong>"
+          <div className="statement-end-if-in-editor" />
+          ), and <div className="question">Lendflow Sucks LLC</div>, concerning
           your access to and use of the Services. You agree that by accessing
           the Services, you have read, understood, and agreed to be bound by all
           of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL
           TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND
           YOU MUST DISCONTINUE USE IMMEDIATELY.
-          <bdt className="block-component" />
-          <bdt className="block-component" />
+          <div className="block-component" />
+          <div className="block-component" />
         </span>
       </div>
       <div className="MsoNormal" style={{ lineHeight: 1 }}>
@@ -411,60 +381,56 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           We will provide you with prior notice of any scheduled changes to the
           Services you are using. The modified Legal Terms will become effective
           upon posting or notifying you by{" "}
-          <bdt className="question">update@lendflow.sucks</bdt>, as stated in
+          <div className="question">update@lendflow.sucks</div>, as stated in
           the email message. By continuing to use the Services after the
           effective date of any changes, you agree to be bound by the modified
           terms.
-          <bdt className="block-component" />
-          <bdt className="statement-end-if-in-editor" />
+          <div className="block-component" />
+          <div className="statement-end-if-in-editor" />
         </span>
       </div>
     </div>
-    <div align="center" style={{ lineHeight: 1 }}>
+<div style={{ textAlign: "center", lineHeight: 1 }}>
       <br />
     </div>
-    <div align="center" style={{ textAlign: "left" }}>
+    <div style={{ textAlign: "left" }}>
       <div
         className="MsoNormal"
         data-custom-class="body_text"
         style={{ lineHeight: "1.5" }}
       >
-        <bdt
+        <div
           className="block-container if"
           data-type="if"
           id="a2595956-7028-dbe5-123e-d3d3a93ed076"
         >
-          <bdt data-type="conditional-block">
-            <bdt data-type="body">
+          <div data-type="conditional-block">
+            <div data-type="body">
               <span
                 style={{
                   fontSize: "11.0pt",
                   lineHeight: "115%",
                   fontFamily: "Arial",
-                  color: "#595959",
-                  msoThemecolor: "text1",
-                  msoThemetint: 166
+                  color: "#595959"
                 }}
               >
-                <bdt className="block-component" />
+                <div className="block-component" />
                 The Services are intended for users who are at least 18 years
                 old. Persons under the age of 18 are not permitted to use or
                 register for the Services.
               </span>
-            </bdt>
-          </bdt>
-          <bdt data-type="conditional-block">
-            <bdt className="block-component" />
-          </bdt>
-        </bdt>
+            </div>
+          </div>
+          <div data-type="conditional-block">
+            <div className="block-component" />
+          </div>
+        </div>
       </div>
       <div className="MsoNormal" style={{ lineHeight: 1 }}>
         <br />
@@ -522,7 +488,7 @@ const TermsContent: React.FC = () => {
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <span style={{ fontSize: 15 }}>
           <span data-custom-class="body_text">
-            <bdt className="block-component" />
+            <div className="block-component" />
           </span>
         </span>
         <a data-custom-class="link" href="#userreg">
@@ -532,7 +498,7 @@ const TermsContent: React.FC = () => {
         </a>
         <span style={{ fontSize: 15 }}>
           <span data-custom-class="body_text">
-            <bdt className="statement-end-if-in-editor" />
+            <div className="statement-end-if-in-editor" />
           </span>
         </span>{" "}
         <a data-custom-class="link" href="#products" />
@@ -541,7 +507,7 @@ const TermsContent: React.FC = () => {
         <a data-custom-class="link" href="#products">
           <span style={{ color: "rgb(0, 58, 250)", fontSize: 15 }}>
             <span data-custom-class="body_text">
-              <bdt className="block-component" />
+              <div className="block-component" />
             </span>
           </span>
         </a>{" "}
@@ -551,30 +517,30 @@ const TermsContent: React.FC = () => {
         <a data-custom-class="link" href="#purchases">
           <span style={{ color: "rgb(0, 58, 250)", fontSize: 15 }}>
             <span data-custom-class="body_text">
-              <bdt className="block-component" />
+              <div className="block-component" />
               5. PURCHASES AND PAYMENT
-              <bdt className="statement-end-if-in-editor" />
+              <div className="statement-end-if-in-editor" />
             </span>
           </span>
         </a>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt className="block-component">
+        <div className="block-component">
           <span style={{ fontSize: 15 }} />
-        </bdt>
+        </div>
         <a data-custom-class="link" href="#subscriptions">
           <span style={{ color: "rgb(0, 58, 250)", fontSize: 15 }}>
             <span data-custom-class="body_text">6. SUBSCRIPTIONS</span>
           </span>
         </a>
-        <bdt className="statement-end-if-in-editor">
+        <div className="statement-end-if-in-editor">
           <span style={{ fontSize: 15 }} />
-        </bdt>
+        </div>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <span style={{ fontSize: 15 }}>
           <span data-custom-class="body_text">
-            <bdt className="block-component" />
+            <div className="block-component" />
           </span>
         </span>{" "}
         <a data-custom-class="link" href="#software" />{" "}
@@ -584,9 +550,9 @@ const TermsContent: React.FC = () => {
         <a data-custom-class="link" href="#software">
           <span style={{ color: "rgb(0, 58, 250)", fontSize: 15 }}>
             <span data-custom-class="body_text">
-              <bdt className="block-component" />
+              <div className="block-component" />
               7. SOFTWARE
-              <bdt className="statement-end-if-in-editor" />
+              <div className="statement-end-if-in-editor" />
             </span>
           </span>
         </a>{" "}
@@ -614,9 +580,9 @@ const TermsContent: React.FC = () => {
         <a data-custom-class="link" href="#license">
           <span style={{ color: "rgb(0, 58, 250)", fontSize: 15 }}>
             <span data-custom-class="body_text">
-              10. CONTRIBUTION <bdt className="block-component" />
+              10. CONTRIBUTION <div className="block-component" />
               LICENSE
-              <bdt className="statement-end-if-in-editor" />
+              <div className="statement-end-if-in-editor" />
             </span>
           </span>
         </a>{" "}
@@ -626,7 +592,7 @@ const TermsContent: React.FC = () => {
         <a data-custom-class="link" href="#reviews">
           <span style={{ color: "rgb(0, 58, 250)", fontSize: 15 }}>
             <span data-custom-class="body_text">
-              <bdt className="block-component" />
+              <div className="block-component" />
             </span>
           </span>
         </a>{" "}
@@ -636,7 +602,7 @@ const TermsContent: React.FC = () => {
         <a data-custom-class="link" href="#mobile">
           <span style={{ color: "rgb(0, 58, 250)", fontSize: 15 }}>
             <span data-custom-class="body_text">
-              <bdt className="block-component" />
+              <div className="block-component" />
             </span>
           </span>
         </a>{" "}
@@ -646,9 +612,9 @@ const TermsContent: React.FC = () => {
         <a data-custom-class="link" href="#socialmedia">
           <span style={{ color: "rgb(0, 58, 250)", fontSize: 15 }}>
             <span data-custom-class="body_text">
-              <bdt className="block-component" />
+              <div className="block-component" />
               11. SOCIAL MEDIA
-              <bdt className="statement-end-if-in-editor" />
+              <div className="statement-end-if-in-editor" />
             </span>
           </span>
         </a>{" "}
@@ -658,9 +624,9 @@ const TermsContent: React.FC = () => {
         <a data-custom-class="link" href="#thirdparty">
           <span style={{ color: "rgb(0, 58, 250)", fontSize: 15 }}>
             <span data-custom-class="body_text">
-              <bdt className="block-component" />
+              <div className="block-component" />
               12. THIRD-PARTY WEBSITES AND CONTENT
-              <bdt className="statement-end-if-in-editor" />
+              <div className="statement-end-if-in-editor" />
             </span>
           </span>
         </a>{" "}
@@ -670,9 +636,9 @@ const TermsContent: React.FC = () => {
         <a data-custom-class="link" href="#advertisers">
           <span style={{ color: "rgb(0, 58, 250)", fontSize: 15 }}>
             <span data-custom-class="body_text">
-              <bdt className="block-component" />
+              <div className="block-component" />
               13. ADVERTISERS
-              <bdt className="statement-end-if-in-editor" />
+              <div className="statement-end-if-in-editor" />
             </span>
           </span>
         </a>{" "}
@@ -690,9 +656,9 @@ const TermsContent: React.FC = () => {
         <a data-custom-class="link" href="#ppyes">
           <span style={{ color: "rgb(0, 58, 250)", fontSize: 15 }}>
             <span data-custom-class="body_text">
-              <bdt className="block-component" />
+              <div className="block-component" />
               15. PRIVACY POLICY
-              <bdt className="statement-end-if-in-editor" />
+              <div className="statement-end-if-in-editor" />
             </span>
           </span>
         </a>{" "}
@@ -702,7 +668,7 @@ const TermsContent: React.FC = () => {
         <a data-custom-class="link" href="#ppno">
           <span style={{ color: "rgb(0, 58, 250)", fontSize: 15 }}>
             <span data-custom-class="body_text">
-              <bdt className="block-component" />
+              <div className="block-component" />
             </span>
           </span>
         </a>{" "}
@@ -712,9 +678,9 @@ const TermsContent: React.FC = () => {
         <a data-custom-class="link" href="#dmca">
           <span style={{ color: "rgb(0, 58, 250)", fontSize: 15 }}>
             <span data-custom-class="body_text">
-              <bdt className="block-component" />
-              <bdt className="block-component" />
-              <bdt className="statement-end-if-in-editor" />
+              <div className="block-component" />
+              <div className="block-component" />
+              <div className="statement-end-if-in-editor" />
             </span>
           </span>
         </a>
@@ -722,8 +688,8 @@ const TermsContent: React.FC = () => {
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <span style={{ fontSize: 15 }}>
           <span data-custom-class="body_text">
-            <bdt className="block-component" />
-            <bdt className="block-component" />
+            <div className="block-component" />
+            <div className="block-component" />
           </span>
         </span>
         <a data-custom-class="link" href="#copyrightyes">
@@ -735,8 +701,8 @@ const TermsContent: React.FC = () => {
         </a>
         <span style={{ fontSize: 15 }}>
           <span data-custom-class="body_text">
-            <bdt className="statement-end-if-in-editor" />
-            <bdt className="block-component" />
+            <div className="statement-end-if-in-editor" />
+            <div className="block-component" />
           </span>
         </span>{" "}
         <a data-custom-class="link" href="#terms" />
@@ -828,9 +794,9 @@ const TermsContent: React.FC = () => {
         <a data-custom-class="link" href="#california" />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt className="block-component">
+        <div className="block-component">
           <span style={{ fontSize: 15 }} />
-        </bdt>
+        </div>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <span style={{ color: "rgb(0, 58, 250)", fontSize: 15 }}>
@@ -838,17 +804,17 @@ const TermsContent: React.FC = () => {
             <span data-custom-class="body_text">27. SMS TEXT MESSAGING</span>
           </a>
         </span>
-        <bdt className="statement-end-if-in-editor">
+        <div className="statement-end-if-in-editor">
           <span style={{ fontSize: 15 }} />
-        </bdt>
+        </div>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <a data-custom-class="link" href="#california">
           <span style={{ color: "rgb(0, 58, 250)", fontSize: 15 }}>
             <span data-custom-class="body_text">
-              <bdt className="block-component" />
+              <div className="block-component" />
               28. CALIFORNIA USERS AND RESIDENTS
-              <bdt className="statement-end-if-in-editor" />
+              <div className="statement-end-if-in-editor" />
             </span>
           </span>
         </a>{" "}
@@ -863,34 +829,34 @@ const TermsContent: React.FC = () => {
         <a data-custom-class="link" href="#contact" />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt className="block-component" />
+        <div className="block-component" />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt className="block-component" />
+        <div className="block-component" />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt className="block-component" />
+        <div className="block-component" />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt className="block-component" />
+        <div className="block-component" />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt className="block-component" />
+        <div className="block-component" />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt className="block-component" />
+        <div className="block-component" />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt className="block-component" />
+        <div className="block-component" />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt className="block-component" />
+        <div className="block-component" />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt className="block-component" />
+        <div className="block-component" />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt className="block-component" />
+        <div className="block-component" />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <a data-custom-class="link" href="#contact">
@@ -900,13 +866,13 @@ const TermsContent: React.FC = () => {
         </a>
       </div>
     </div>
-    <div align="center" style={{ textAlign: "left" }}>
+    <div style={{ textAlign: "left" }}>
       <div
         className="MsoNormal"
         data-custom-class="heading_1"
         style={{ lineHeight: "1.5" }}
       >
-        <a name="_b6y29mp52qvx" />
+        <a id="_b6y29mp52qvx" />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <br />
@@ -941,11 +907,11 @@ const TermsContent: React.FC = () => {
           choose to access the Services from other locations do so on their own
           initiative and are solely responsible for compliance with local laws,
           if and to the extent local laws are applicable.
-          <bdt className="block-component" />
+          <div className="block-component" />
         </span>
-        <bdt className="block-component">
+        <div className="block-component">
           <span style={{ fontSize: 15 }} />
-        </bdt>
+        </div>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <br />
@@ -962,8 +928,8 @@ const TermsContent: React.FC = () => {
           so if your interactions would be subjected to such laws, you may not
           use the Services. You may not use the Services in a way that would
           violate the Gramm-Leach-Bliley Act (GLBA).
-          <bdt className="block-component" />
-          <bdt className="statement-end-if-in-editor" />
+          <div className="block-component" />
+          <div className="statement-end-if-in-editor" />
         </span>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
@@ -971,7 +937,7 @@ const TermsContent: React.FC = () => {
       </div>
     </div>
     <div
-      align="center"
+      
       data-custom-class="heading_1"
       style={{ textAlign: "left", lineHeight: "1.5" }}
     >
@@ -981,10 +947,10 @@ const TermsContent: React.FC = () => {
         </span>
       </strong>
     </div>
-    <div align="center" style={{ lineHeight: "1.5" }}>
+    <div  style={{ lineHeight: "1.5" }}>
       <br />
     </div>
-    <div align="center" style={{ textAlign: "left" }}>
+    <div style={{ textAlign: "left" }}>
       <div
         className="MsoNormal"
         data-custom-class="heading_2"
@@ -1005,22 +971,20 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           We are the owner or the licensee of all intellectual property rights
           in our Services, including all source code, databases, functionality,
           software, website designs, audio, video, text, photographs, and
           graphics in the Services (collectively, the{" "}
-          <bdt className="block-component" />
+          <div className="block-component" />
           "Content"
-          <bdt className="statement-end-if-in-editor" />
+          <div className="statement-end-if-in-editor" />
           ), as well as the trademarks, service marks, and logos contained
-          therein (the <bdt className="block-component" />
+          therein (the <div className="block-component" />
           "Marks"
-          <bdt className="statement-end-if-in-editor" />
+          <div className="statement-end-if-in-editor" />
           ).
         </span>
       </div>
@@ -1037,9 +1001,7 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           Our Content and Marks are protected by copyright and trademark laws
@@ -1060,18 +1022,16 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           The Content and Marks are provided in or through the Services{" "}
-          <bdt className="block-component" />
+          <div className="block-component" />
           "AS IS"
-          <bdt className="statement-end-if-in-editor" /> for your{" "}
-          <bdt className="block-component" />
+          <div className="statement-end-if-in-editor" /> for your{" "}
+          <div className="block-component" />
           personal, non-commercial use or internal business purpose
-          <bdt className="statement-end-if-in-editor" /> only.
+          <div className="statement-end-if-in-editor" /> only.
         </span>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
@@ -1094,8 +1054,8 @@ const TermsContent: React.FC = () => {
       >
         <span style={{ fontSize: 15 }}>
           Subject to your compliance with these Legal Terms, including the{" "}
-          <bdt className="block-component" />"
-          <bdt className="statement-end-if-in-editor" />
+          <div className="block-component" />"
+          <div className="statement-end-if-in-editor" />
         </span>
         <a data-custom-class="link" href="#prohibited">
           <span style={{ color: "rgb(0, 58, 250)", fontSize: 15 }}>
@@ -1103,12 +1063,12 @@ const TermsContent: React.FC = () => {
           </span>
         </a>
         <span style={{ fontSize: 15 }}>
-          <bdt className="block-component" />"
-          <bdt className="statement-end-if-in-editor" /> section below, we grant
+          <div className="block-component" />"
+          <div className="statement-end-if-in-editor" /> section below, we grant
           you a non-exclusive, non-transferable, revocable{" "}
-          <bdt className="block-component" />
+          <div className="block-component" />
           license
-          <bdt className="statement-end-if-in-editor" /> to:
+          <div className="statement-end-if-in-editor" /> to:
         </span>
       </div>
       <ul>
@@ -1140,14 +1100,12 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
-          solely for your <bdt className="block-component" />
+          solely for your <div className="block-component" />
           personal, non-commercial use or internal business purpose
-          <bdt className="statement-end-if-in-editor" />.
+          <div className="statement-end-if-in-editor" />.
         </span>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
@@ -1163,9 +1121,7 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           Except as set out in this section or elsewhere in our Legal Terms, no
@@ -1189,15 +1145,13 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           If you wish to make any use of the Services, Content, or Marks other
           than as set out in this section or elsewhere in our Legal Terms,
           please address your request to:{" "}
-          <bdt className="question">support@lendflow.sucks</bdt>. If we ever
+          <div className="question">support@lendflow.sucks</div>. If we ever
           grant you the permission to post, reproduce, or publicly display any
           part of our Services or Content, you must identify us as the owners or
           licensors of the Services, Content, or Marks and ensure that any
@@ -1206,10 +1160,10 @@ const TermsContent: React.FC = () => {
         </span>
       </div>
     </div>
-    <div align="center" style={{ lineHeight: "1.5" }}>
+    <div  style={{ lineHeight: "1.5" }}>
       <br />
     </div>
-    <div align="center" style={{ textAlign: "left" }}>
+    <div style={{ textAlign: "left" }}>
       <div
         className="MsoNormal"
         data-custom-class="body_text"
@@ -1220,9 +1174,7 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           We reserve all rights not expressly granted to you in and to the
@@ -1242,9 +1194,7 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           Any breach of these Intellectual Property Rights will constitute a
@@ -1265,18 +1215,16 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           <strong>
             Your submissions
-            <bdt className="block-component" /> and contributions
+            <div className="block-component" /> and contributions
           </strong>
-          <bdt className="statement-end-if-in-editor">
+          <div className="statement-end-if-in-editor">
             <strong />
-          </bdt>
+          </div>
         </span>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
@@ -1288,15 +1236,15 @@ const TermsContent: React.FC = () => {
         style={{ lineHeight: "1.5" }}
       >
         <span style={{ fontSize: 15 }}>
-          Please review this section and the <bdt className="block-component" />
-          "<bdt className="statement-end-if-in-editor" />
+          Please review this section and the <div className="block-component" />
+          "<div className="statement-end-if-in-editor" />
           <a data-custom-class="link" href="#prohibited">
             <span style={{ color: "rgb(0, 58, 250)" }}>
               PROHIBITED ACTIVITIES
             </span>
           </a>
-          <bdt className="block-component" />"
-          <bdt className="statement-end-if-in-editor" /> section carefully prior
+          <div className="block-component" />"
+          <div className="statement-end-if-in-editor" /> section carefully prior
           to using our Services to understand the (a) rights you give us and (b)
           obligations you have when you post or upload any content through the
           Services.
@@ -1313,15 +1261,15 @@ const TermsContent: React.FC = () => {
         <span style={{ fontSize: 15 }}>
           <strong>Submissions:</strong> By directly sending us any question,
           comment, suggestion, idea, feedback, or other information about the
-          Services (<bdt className="block-component" />
+          Services (<div className="block-component" />
           "Submissions"
-          <bdt className="statement-end-if-in-editor" />
+          <div className="statement-end-if-in-editor" />
           ), you agree to assign to us all intellectual property rights in such
           Submission. You agree that we shall own this Submission and be
           entitled to its unrestricted use and dissemination for any lawful
           purpose, commercial or otherwise, without acknowledgment or
           compensation to you.
-          <bdt className="block-component" />
+          <div className="block-component" />
         </span>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
@@ -1340,9 +1288,9 @@ const TermsContent: React.FC = () => {
           materials to us or through the Services, including but not limited to
           text, writings, video, audio, photographs, music, graphics, comments,
           reviews, rating suggestions, personal information, or other material (
-          <bdt className="block-component" />
+          <div className="block-component" />
           "Contributions"
-          <bdt className="statement-end-if-in-editor" />
+          <div className="statement-end-if-in-editor" />
           ). Any Submission that is publicly posted shall also be treated as a
           Contribution.
         </span>
@@ -1358,9 +1306,9 @@ const TermsContent: React.FC = () => {
         <span style={{ fontSize: 15 }}>
           You understand that Contributions may be viewable by other users of
           the Services
-          <bdt className="block-component" /> and possibly through third-party
+          <div className="block-component" /> and possibly through third-party
           websites
-          <bdt className="statement-end-if-in-editor" />.
+          <div className="statement-end-if-in-editor" />.
         </span>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
@@ -1374,25 +1322,25 @@ const TermsContent: React.FC = () => {
         <span style={{ fontSize: 15 }}>
           <strong>
             When you post Contributions, you grant us a{" "}
-            <bdt className="block-component" />
+            <div className="block-component" />
             license
-            <bdt className="statement-end-if-in-editor" /> (including use of
+            <div className="statement-end-if-in-editor" /> (including use of
             your name, trademarks, and logos):&nbsp;
           </strong>
           By posting any Contributions, you grant us an unrestricted, unlimited,
           irrevocable, perpetual, non-exclusive, transferable, royalty-free,
-          fully-paid, worldwide right, and <bdt className="block-component" />
+          fully-paid, worldwide right, and <div className="block-component" />
           license
-          <bdt className="statement-end-if-in-editor" /> to: use, copy,
+          <div className="statement-end-if-in-editor" /> to: use, copy,
           reproduce, distribute, sell, resell, publish, broadcast, retitle,
           store, publicly perform, publicly display, reformat, translate,
           excerpt (in whole or in part), and exploit your Contributions
           (including, without limitation, your image, name, and voice) for any
           purpose, commercial, advertising, or otherwise, to prepare derivative
           works of, or incorporate into other works, your Contributions, and to{" "}
-          <bdt className="block-component" />
+          <div className="block-component" />
           sublicense the licenses
-          <bdt className="statement-end-if-in-editor" /> granted in this
+          <div className="statement-end-if-in-editor" /> granted in this
           section. Our use and distribution may occur in any media formats and
           through any media channels.
         </span>
@@ -1406,13 +1354,13 @@ const TermsContent: React.FC = () => {
         style={{ lineHeight: "1.5" }}
       >
         <span style={{ fontSize: 15 }}>
-          This <bdt className="block-component" />
+          This <div className="block-component" />
           license
-          <bdt className="statement-end-if-in-editor" /> includes our use of
+          <div className="statement-end-if-in-editor" /> includes our use of
           your name, company name, and franchise name, as applicable, and any of
           the trademarks, service marks, trade names, logos, and personal and
           commercial images you provide.
-          <bdt className="statement-end-if-in-editor" />
+          <div className="statement-end-if-in-editor" />
         </span>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
@@ -1426,13 +1374,13 @@ const TermsContent: React.FC = () => {
         <span style={{ fontSize: 15 }}>
           <strong>You are responsible for what you post or upload:</strong> By
           sending us Submissions
-          <bdt className="block-component" /> and/or posting Contributions
-          <bdt className="statement-end-if-in-editor" /> through any part of the
+          <div className="block-component" /> and/or posting Contributions
+          <div className="statement-end-if-in-editor" /> through any part of the
           Services
-          <bdt className="block-component" /> or making Contributions accessible
+          <div className="block-component" /> or making Contributions accessible
           through the Services by linking your account through the Services to
           any of your social networking accounts,
-          <bdt className="statement-end-if-in-editor" /> you:
+          <div className="statement-end-if-in-editor" /> you:
         </span>
       </div>
       <ul>
@@ -1443,8 +1391,8 @@ const TermsContent: React.FC = () => {
         >
           <span style={{ fontSize: 15 }}>
             confirm that you have read and agree with our{" "}
-            <bdt className="block-component" />"
-            <bdt className="statement-end-if-in-editor" />
+            <div className="block-component" />"
+            <div className="statement-end-if-in-editor" />
           </span>
           <a data-custom-class="link" href="#prohibited">
             <span style={{ color: "rgb(0, 58, 250)", fontSize: 15 }}>
@@ -1452,12 +1400,12 @@ const TermsContent: React.FC = () => {
             </span>
           </a>
           <span style={{ fontSize: 15 }}>
-            <bdt className="block-component" />"
-            <bdt className="statement-end-if-in-editor" /> and will not post,
+            <div className="block-component" />"
+            <div className="statement-end-if-in-editor" /> and will not post,
             send, publish, upload, or transmit through the Services any
             Submission
-            <bdt className="block-component" /> nor post any Contribution
-            <bdt className="statement-end-if-in-editor" /> that is illegal,
+            <div className="block-component" /> nor post any Contribution
+            <div className="statement-end-if-in-editor" /> that is illegal,
             harassing, hateful, harmful, defamatory, obscene, bullying, abusive,
             discriminatory, threatening to any person or group, sexually
             explicit, false, inaccurate, deceitful, or misleading;
@@ -1471,8 +1419,8 @@ const TermsContent: React.FC = () => {
           <span style={{ fontSize: 15 }}>
             to the extent permissible by applicable law, waive any and all moral
             rights to any such Submission
-            <bdt className="block-component" /> and/or Contribution
-            <bdt className="statement-end-if-in-editor" />;
+            <div className="block-component" /> and/or Contribution
+            <div className="statement-end-if-in-editor" />;
           </span>
         </li>
         <li
@@ -1482,19 +1430,19 @@ const TermsContent: React.FC = () => {
         >
           <span style={{ fontSize: 15 }}>
             warrant that any such Submission
-            <bdt className="block-component" /> and/or Contributions
-            <bdt className="statement-end-if-in-editor" /> are original to you
+            <div className="block-component" /> and/or Contributions
+            <div className="statement-end-if-in-editor" /> are original to you
             or that you have the necessary rights and{" "}
-            <bdt className="block-component" />
+            <div className="block-component" />
             licenses
-            <bdt className="statement-end-if-in-editor" /> to submit such
+            <div className="statement-end-if-in-editor" /> to submit such
             Submissions
-            <bdt className="block-component" /> and/or Contributions
-            <bdt className="statement-end-if-in-editor" /> and that you have
+            <div className="block-component" /> and/or Contributions
+            <div className="statement-end-if-in-editor" /> and that you have
             full authority to grant us the above-mentioned rights in relation to
             your Submissions
-            <bdt className="block-component" /> and/or Contributions
-            <bdt className="statement-end-if-in-editor" />; and
+            <div className="block-component" /> and/or Contributions
+            <div className="statement-end-if-in-editor" />; and
           </span>
         </li>
         <li
@@ -1504,8 +1452,8 @@ const TermsContent: React.FC = () => {
         >
           <span style={{ fontSize: 15 }}>
             warrant and represent that your Submissions
-            <bdt className="block-component" /> and/or Contributions
-            <bdt className="statement-end-if-in-editor" /> do not constitute
+            <div className="block-component" /> and/or Contributions
+            <div className="statement-end-if-in-editor" /> do not constitute
             confidential information.
           </span>
         </li>
@@ -1516,12 +1464,12 @@ const TermsContent: React.FC = () => {
         style={{ lineHeight: "1.5" }}
       >
         You are solely responsible for your Submissions
-        <bdt className="block-component" /> and/or Contributions
-        <bdt className="statement-end-if-in-editor" /> and you expressly agree
+        <div className="block-component" /> and/or Contributions
+        <div className="statement-end-if-in-editor" /> and you expressly agree
         to reimburse us for any and all losses that we may suffer because of
         your breach of (a) this section, (b) any third party’s intellectual
         property rights, or (c) applicable law.
-        <bdt className="block-component" />
+        <div className="block-component" />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <br />
@@ -1538,8 +1486,8 @@ const TermsContent: React.FC = () => {
         of these Legal Terms. If we remove or edit any such Contributions, we
         may also suspend or disable your account and report you to the
         authorities.
-        <bdt className="statement-end-if-in-editor" />
-        <bdt className="block-component" />
+        <div className="statement-end-if-in-editor" />
+        <div className="block-component" />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <br />
@@ -1562,40 +1510,40 @@ const TermsContent: React.FC = () => {
         We respect the intellectual property rights of others. If you believe
         that any material available on or through the Services infringes upon
         any copyright you own or control, please immediately refer to the{" "}
-        <bdt className="block-component" />"
-        <bdt className="statement-end-if-in-editor" />
+        <div className="block-component" />"
+        <div className="statement-end-if-in-editor" />
         <a data-custom-class="link" href="#dmca">
           <span style={{ color: "rgb(0, 58, 250)" }}>
-            <bdt className="block-component" />
-            <bdt className="block-component" />
+            <div className="block-component" />
+            <div className="block-component" />
           </span>
-          <bdt className="statement-end-if-in-editor" />
+          <div className="statement-end-if-in-editor" />
         </a>
-        <bdt className="block-component" />
+        <div className="block-component" />
         <a data-custom-class="link" href="#copyrightyes">
           <span style={{ color: "rgb(0, 58, 250)" }}>
-            <bdt className="block-component" />
+            <div className="block-component" />
             COPYRIGHT INFRINGEMENTS
-            <bdt className="statement-end-if-in-editor" />
+            <div className="statement-end-if-in-editor" />
           </span>
         </a>
-        <bdt className="block-component" />
-        <bdt className="block-component" />"
-        <bdt className="statement-end-if-in-editor" /> section below.
-        <bdt className="statement-end-if-in-editor" />
+        <div className="block-component" />
+        <div className="block-component" />"
+        <div className="statement-end-if-in-editor" /> section below.
+        <div className="statement-end-if-in-editor" />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <br />
       </div>
     </div>
-    <div align="center" style={{ textAlign: "left" }}>
+    <div style={{ textAlign: "left" }}>
       <div
         className="MsoNormal"
         data-custom-class="heading_1"
         id="userreps"
         style={{ lineHeight: "1.5" }}
       >
-        <a name="_5hg7kgyv9l8z" />
+        <a id="_5hg7kgyv9l8z" />
         <strong>
           <span
             style={{ lineHeight: "115%", fontFamily: "Arial", fontSize: 19 }}
@@ -1637,10 +1585,10 @@ const TermsContent: React.FC = () => {
         </strong>
       </div>
     </div>
-    <div align="center" style={{ lineHeight: "1.5" }}>
+    <div  style={{ lineHeight: "1.5" }}>
       <br />
     </div>
-    <div align="center" style={{ textAlign: "left" }}>
+    <div style={{ textAlign: "left" }}>
       <div
         className="MsoNormal"
         data-custom-class="body_text"
@@ -1651,25 +1599,23 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           By using the Services, you represent and warrant that:
         </span>
-        <bdt
+        <div
           className="block-container if"
           data-type="if"
           id="d2d82ca8-275f-3f86-8149-8a5ef8054af6"
         >
-          <bdt data-type="conditional-block">
-            <bdt
+          <div data-type="conditional-block">
+            <div
               className="block-component"
               data-record-question-key="user_account_option"
               data-type="statement"
             />{" "}
-            <bdt data-type="body">
+            <div data-type="body">
               <span style={{ color: "rgb(89, 89, 89)", fontSize: "11pt" }}>
                 (
               </span>
@@ -1687,11 +1633,11 @@ const TermsContent: React.FC = () => {
                 ) you will maintain the accuracy of such information and
                 promptly update such registration information as necessary;
               </span>
-            </bdt>
-          </bdt>
-          <bdt className="statement-end-if-in-editor" data-type="close" />
+            </div>
+          </div>
+          <div className="statement-end-if-in-editor" data-type="close" />
           &nbsp;
-        </bdt>
+        </div>
         <span style={{ color: "rgb(89, 89, 89)", fontSize: "11pt" }}>(</span>
         <span style={{ color: "rgb(89, 89, 89)", fontSize: "14.6667px" }}>
           3
@@ -1700,39 +1646,39 @@ const TermsContent: React.FC = () => {
           ) you have the legal capacity and you agree to comply with these Legal
           Terms;
         </span>
-        <bdt
+        <div
           className="block-container if"
           data-type="if"
           id="8d4c883b-bc2c-f0b4-da3e-6d0ee51aca13"
         >
-          <bdt data-type="conditional-block">
-            <bdt
+          <div data-type="conditional-block">
+            <div
               className="block-component"
               data-record-question-key="user_u13_option"
               data-type="statement"
             />
             &nbsp;
-          </bdt>
+          </div>
           <span style={{ color: "rgb(89, 89, 89)", fontSize: "11pt" }}>(</span>
           <span style={{ color: "rgb(89, 89, 89)", fontSize: "14.6667px" }}>
             4
           </span>
           <span style={{ color: "rgb(89, 89, 89)", fontSize: "11pt" }}>
             ) you are not a minor in the jurisdiction in which you reside
-            <bdt
+            <div
               className="block-container if"
               data-type="if"
               id="76948fab-ec9e-266a-bb91-948929c050c9"
             >
-              <bdt data-type="conditional-block">
-                <bdt
+              <div data-type="conditional-block">
+                <div
                   className="block-component"
                   data-record-question-key="user_o18_option"
                   data-type="statement"
                 />
-              </bdt>
+              </div>
               ; (
-            </bdt>
+            </div>
           </span>
           <span style={{ color: "rgb(89, 89, 89)", fontSize: "14.6667px" }}>
             5
@@ -1746,9 +1692,9 @@ const TermsContent: React.FC = () => {
           </span>
           <span style={{ color: "rgb(89, 89, 89)", fontSize: "11pt" }}>
             ) you will not use the Services for any illegal or{" "}
-            <bdt className="block-component" />
+            <div className="block-component" />
             unauthorized
-            <bdt className="statement-end-if-in-editor" /> purpose; and (
+            <div className="statement-end-if-in-editor" /> purpose; and (
           </span>
           <span style={{ color: "rgb(89, 89, 89)", fontSize: "14.6667px" }}>
             7
@@ -1758,13 +1704,13 @@ const TermsContent: React.FC = () => {
             regulation.
           </span>
           <span style={{ color: "rgb(89, 89, 89)", fontSize: "14.6667px" }} />
-        </bdt>
+        </div>
       </div>
     </div>
-    <div align="center" style={{ lineHeight: "1.5" }}>
+    <div  style={{ lineHeight: "1.5" }}>
       <br />
     </div>
-    <div align="center" style={{ textAlign: "left" }}>
+    <div style={{ textAlign: "left" }}>
       <div
         className="MsoNormal"
         style={{ textAlign: "justify", lineHeight: "115%" }}
@@ -1792,7 +1738,7 @@ const TermsContent: React.FC = () => {
             className="MsoNormal"
             style={{ lineHeight: "1.1", textAlign: "left" }}
           >
-            <bdt className="block-component" />
+            <div className="block-component" />
           </div>
           <div
             className="MsoNormal"
@@ -1802,8 +1748,8 @@ const TermsContent: React.FC = () => {
           </div>
         </div>
         <div className="MsoNormal" style={{ lineHeight: 1 }}>
-          <bdt data-type="conditional-block">
-            <bdt data-type="body">
+          <div data-type="conditional-block">
+            <div data-type="body">
               <div
                 className="MsoNormal"
                 data-custom-class="heading_1"
@@ -1848,8 +1794,8 @@ const TermsContent: React.FC = () => {
                   </span>
                 </strong>
               </div>
-            </bdt>
-          </bdt>
+            </div>
+          </div>
         </div>
         <div
           className="MsoNormal"
@@ -1858,8 +1804,8 @@ const TermsContent: React.FC = () => {
           <br />
         </div>
         <div className="MsoNormal" style={{ lineHeight: 1 }}>
-          <bdt data-type="conditional-block">
-            <bdt data-type="body">
+          <div data-type="conditional-block">
+            <div data-type="body">
               <div
                 className="MsoNormal"
                 data-custom-class="body_text"
@@ -1878,30 +1824,30 @@ const TermsContent: React.FC = () => {
                   remove, reclaim, or change a username you select if we
                   determine, in our sole discretion, that such username is
                   inappropriate, obscene, or otherwise objectionable.
-                  <bdt
+                  <div
                     className="statement-end-if-in-editor"
                     data-type="close"
                   />
                 </span>
               </div>
-            </bdt>
-          </bdt>
+            </div>
+          </div>
         </div>
         <div
           className="MsoNormal"
           style={{ lineHeight: "1.5", textAlign: "left" }}
         >
-          <bdt className="block-component">
+          <div className="block-component">
             <span style={{ fontSize: 15 }} />
-          </bdt>
+          </div>
         </div>
         <div
           className="MsoNormal"
           style={{ lineHeight: "1.5", textAlign: "left" }}
         >
-          <bdt className="block-component">
+          <div className="block-component">
             <span style={{ fontSize: 15 }} />
-          </bdt>
+          </div>
         </div>
         <div
           className="MsoNormal"
@@ -1911,14 +1857,14 @@ const TermsContent: React.FC = () => {
         </div>
       </div>
     </div>
-    <div align="center" style={{ textAlign: "left" }}>
+    <div style={{ textAlign: "left" }}>
       <div
         className="MsoNormal"
         data-custom-class="heading_1"
         id="purchases"
         style={{ lineHeight: "1.5" }}
       >
-        <a name="_ynub0jdx8pob" />
+        <a id="_ynub0jdx8pob" />
         <strong>
           <span
             style={{ lineHeight: "115%", fontFamily: "Arial", fontSize: 19 }}
@@ -1960,14 +1906,14 @@ const TermsContent: React.FC = () => {
         </strong>
       </div>
     </div>
-    <div align="center" style={{ lineHeight: "1.5" }}>
+    <div  style={{ lineHeight: "1.5" }}>
       <br />
     </div>
-    <div align="center" style={{ textAlign: "left" }}>
+    <div style={{ textAlign: "left" }}>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt className="block-component">
+        <div className="block-component">
           <span style={{ fontSize: 15 }} />
-        </bdt>
+        </div>
       </div>
       <div
         className="MsoNormal"
@@ -1979,9 +1925,7 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           We accept the following forms of payment:
@@ -2005,13 +1949,11 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
-          <bdt className="forloop-component" />- &nbsp;
-          <bdt className="question">Visa</bdt>
+          <div className="forloop-component" />- &nbsp;
+          <div className="question">Visa</div>
         </span>
       </div>
       <div
@@ -2024,13 +1966,11 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
-          <bdt className="forloop-component" />- &nbsp;
-          <bdt className="question">Mastercard</bdt>
+          <div className="forloop-component" />- &nbsp;
+          <div className="question">Mastercard</div>
         </span>
       </div>
       <div
@@ -2043,13 +1983,11 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
-          <bdt className="forloop-component" />- &nbsp;
-          <bdt className="question">American Express</bdt>
+          <div className="forloop-component" />- &nbsp;
+          <div className="question">American Express</div>
         </span>
       </div>
       <div
@@ -2062,13 +2000,11 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
-          <bdt className="forloop-component" />- &nbsp;
-          <bdt className="question">Discover</bdt>
+          <div className="forloop-component" />- &nbsp;
+          <div className="question">Discover</div>
         </span>
       </div>
       <div
@@ -2081,13 +2017,11 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
-          <bdt className="forloop-component" />- &nbsp;
-          <bdt className="question">PayPal</bdt>
+          <div className="forloop-component" />- &nbsp;
+          <div className="question">PayPal</div>
         </span>
       </div>
       <div
@@ -2100,13 +2034,11 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
-          <bdt className="forloop-component" />- &nbsp;
-          <bdt className="question">Invoice</bdt>
+          <div className="forloop-component" />- &nbsp;
+          <div className="question">Invoice</div>
         </span>
       </div>
       <div
@@ -2119,12 +2051,10 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
-          <bdt className="forloop-component" />
+          <div className="forloop-component" />
         </span>
       </div>
       <div className="MsoNormal" style={{ lineHeight: 1 }}>
@@ -2133,9 +2063,7 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           <br />
@@ -2151,9 +2079,7 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           You agree to provide current, complete, and accurate purchase and
@@ -2173,14 +2099,14 @@ const TermsContent: React.FC = () => {
             color: "rgb(89, 89, 89)"
           }}
         >
-          in <bdt className="question">US dollars</bdt>.
+          in <div className="question">US dollars</div>.
         </span>
       </div>
     </div>
-    <div align="center" style={{ lineHeight: "1.5" }}>
+    <div  style={{ lineHeight: "1.5" }}>
       <br />
     </div>
-    <div align="center" style={{ textAlign: "left" }}>
+    <div style={{ textAlign: "left" }}>
       <div
         className="MsoNormal"
         data-custom-class="body_text"
@@ -2191,26 +2117,24 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           You agree to pay all charges at the prices then in effect for your
           purchases and any applicable shipping fees, and you{" "}
-          <bdt className="block-component" />
+          <div className="block-component" />
           authorize
-          <bdt className="statement-end-if-in-editor" /> us to charge your
+          <div className="statement-end-if-in-editor" /> us to charge your
           chosen payment provider for any such amounts upon placing your order.
           We reserve the right to correct any errors or mistakes in pricing,
           even if we have already requested or received payment.
         </span>
       </div>
     </div>
-    <div align="center" style={{ lineHeight: "1.5" }}>
+    <div  style={{ lineHeight: "1.5" }}>
       <br />
     </div>
-    <div align="center" style={{ textAlign: "left" }}>
+    <div style={{ textAlign: "left" }}>
       <div
         className="MsoNormal"
         data-custom-class="body_text"
@@ -2221,9 +2145,7 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           We reserve the right to refuse any order placed through the Services.
@@ -2232,9 +2154,9 @@ const TermsContent: React.FC = () => {
           include orders placed by or under the same customer account, the same
           payment method, and/or orders that use the same billing or shipping
           address. We reserve the right to limit or prohibit orders that, in our
-          sole <bdt className="block-component" />
+          sole <div className="block-component" />
           judgment
-          <bdt className="statement-end-if-in-editor" />, appear to be placed by
+          <div className="statement-end-if-in-editor" />, appear to be placed by
           dealers, resellers, or distributors.
         </span>
         <span
@@ -2244,23 +2166,23 @@ const TermsContent: React.FC = () => {
             color: "rgb(89, 89, 89)"
           }}
         >
-          <bdt
+          <div
             data-type="conditional-block"
             style={{ color: "rgb(10, 54, 90)", textAlign: "left" }}
           >
-            <bdt
+            <div
               className="block-component"
               data-record-question-key="return_option"
               data-type="statement"
               style={{ fontSize: 15 }}
             />
-          </bdt>
+          </div>
         </span>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt className="block-component">
+        <div className="block-component">
           <span style={{ fontSize: 15 }} />
-        </bdt>
+        </div>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <br />
@@ -2276,7 +2198,7 @@ const TermsContent: React.FC = () => {
         </strong>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt className="block-component" />
+        <div className="block-component" />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <br />
@@ -2301,27 +2223,27 @@ const TermsContent: React.FC = () => {
         style={{ lineHeight: "1.5" }}
       >
         <span style={{ fontSize: 15 }}>
-          <bdt className="block-component" />
+          <div className="block-component" />
           Your subscription will continue and automatically renew unless{" "}
-          <bdt className="block-component" />
+          <div className="block-component" />
           canceled
-          <bdt className="statement-end-if-in-editor" />. You consent to our
+          <div className="statement-end-if-in-editor" />. You consent to our
           charging your payment method on a recurring basis without requiring
           your prior approval for each recurring charge, until such time as you
           cancel the applicable order.
-          <bdt className="block-component" /> The length of your billing cycle{" "}
-          <bdt className="block-component" />
+          <div className="block-component" /> The length of your billing cycle{" "}
+          <div className="block-component" />
           will depend on the type of subscription plan you choose when you
           subscribed to the Services
-          <bdt className="else-block" />.
-          <bdt className="statement-end-if-in-editor" />
-          <bdt className="else-block" />
+          <div className="else-block" />.
+          <div className="statement-end-if-in-editor" />
+          <div className="else-block" />
         </span>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt className="block-component">
+        <div className="block-component">
           <span style={{ fontSize: 15 }} />
-        </bdt>
+        </div>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <span style={{ fontSize: 15 }}>
@@ -2348,24 +2270,24 @@ const TermsContent: React.FC = () => {
         style={{ lineHeight: "1.5" }}
       >
         <span style={{ fontSize: 15 }}>
-          We offer a <bdt className="question">120</bdt>-day free trial to new
+          We offer a <div className="question">120</div>-day free trial to new
           users who register with the Services.{" "}
-          <bdt className="block-component" />
-          <bdt className="question">
+          <div className="block-component" />
+          <div className="question">
             The account will be charged according to the user's chosen
             subscription
-          </bdt>{" "}
+          </div>{" "}
           at the end of the free trial.
-          <bdt className="else-block" />
+          <div className="else-block" />
         </span>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <span style={{ fontSize: 15 }}>
-          <bdt className="statement-end-if-in-editor" />
+          <div className="statement-end-if-in-editor" />
         </span>
-        <bdt className="block-component">
+        <div className="block-component">
           <span style={{ fontSize: 15 }} />
-        </bdt>
+        </div>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <span style={{ fontSize: 15 }}>
@@ -2389,17 +2311,17 @@ const TermsContent: React.FC = () => {
         data-custom-class="body_text"
         style={{ lineHeight: "1.5" }}
       >
-        <bdt className="block-component">
+        <div className="block-component">
           <span style={{ fontSize: 15 }} />
-        </bdt>
-        <bdt className="block-component" />
+        </div>
+        <div className="block-component" />
         You can cancel your subscription at any time by logging into your
         account.
-        <bdt className="block-component" /> Your cancellation will take effect
+        <div className="block-component" /> Your cancellation will take effect
         at the end of the current paid term. If you have any questions or are
         unsatisfied with our Services, please email us at{" "}
-        <bdt className="question">support@lendflow.sucks</bdt>.
-        <bdt className="statement-end-if-in-editor" />
+        <div className="question">support@lendflow.sucks</div>.
+        <div className="statement-end-if-in-editor" />
         <br />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
@@ -2428,14 +2350,14 @@ const TermsContent: React.FC = () => {
       </span>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <span style={{ fontSize: 15 }}>
-          <bdt className="statement-end-if-in-editor" />
+          <div className="statement-end-if-in-editor" />
         </span>
-        <bdt className="block-component">
+        <div className="block-component">
           <span style={{ fontSize: 15 }} />
-        </bdt>
+        </div>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt className="block-component" />
+        <div className="block-component" />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <br />
@@ -2461,23 +2383,23 @@ const TermsContent: React.FC = () => {
         <span style={{ fontSize: 15 }}>
           We may include software for use in connection with our Services. If
           such software is accompanied by an end user{" "}
-          <bdt className="block-component" />
+          <div className="block-component" />
           license
-          <bdt className="statement-end-if-in-editor" /> agreement (
-          <bdt className="block-component" />
+          <div className="statement-end-if-in-editor" /> agreement (
+          <div className="block-component" />
           "EULA"
-          <bdt className="statement-end-if-in-editor" />
+          <div className="statement-end-if-in-editor" />
           ), the terms of the EULA will govern your use of the software. If such
           software is not accompanied by a EULA, then we grant to you a
           non-exclusive, revocable, personal, and non-transferable{" "}
-          <bdt className="block-component" />
+          <div className="block-component" />
           license
-          <bdt className="statement-end-if-in-editor" /> to use such software
+          <div className="statement-end-if-in-editor" /> to use such software
           solely in connection with our services and in accordance with these
           Legal Terms. Any software and any related documentation is provided{" "}
-          <bdt className="block-component" />
+          <div className="block-component" />
           "AS IS"
-          <bdt className="statement-end-if-in-editor" /> without warranty of any
+          <div className="statement-end-if-in-editor" /> without warranty of any
           kind, either express or implied, including, without limitation, the
           implied warranties of merchantability, fitness for a particular
           purpose, or non-infringement. You accept any and all risk arising out
@@ -2485,7 +2407,7 @@ const TermsContent: React.FC = () => {
           redistribute any software except in accordance with the EULA or these
           Legal Terms.
         </span>
-        <bdt className="statement-end-if-in-editor" />
+        <div className="statement-end-if-in-editor" />
       </div>
       <div
         className="MsoNormal"
@@ -2498,19 +2420,19 @@ const TermsContent: React.FC = () => {
             color: "rgb(89, 89, 89)"
           }}
         >
-          <bdt
+          <div
             data-type="conditional-block"
             style={{ color: "rgb(10, 54, 90)", textAlign: "left" }}
           >
-            <bdt data-type="body">
+            <div data-type="body">
               <div
                 className="MsoNormal"
                 style={{ fontSize: 15, lineHeight: "1.5" }}
               >
                 <br />
               </div>
-            </bdt>
-          </bdt>
+            </div>
+          </div>
         </span>
         <div
           className="MsoNormal"
@@ -2579,9 +2501,9 @@ const TermsContent: React.FC = () => {
             You may not access or use the Services for any purpose other than
             that for which we make the Services available. The Services may not
             be used in connection with any commercial{" "}
-            <bdt className="block-component" />
+            <div className="block-component" />
             endeavors
-            <bdt className="statement-end-if-in-editor" /> except those that are
+            <div className="statement-end-if-in-editor" /> except those that are
             specifically endorsed or approved by us.
           </span>
         </div>
@@ -3141,9 +3063,9 @@ const TermsContent: React.FC = () => {
                             color: "rgb(89, 89, 89)"
                           }}
                         >
-                          Engage in <bdt className="block-component" />
+                          Engage in <div className="block-component" />
                           unauthorized
-                          <bdt className="statement-end-if-in-editor" /> framing
+                          <div className="statement-end-if-in-editor" /> framing
                           of or linking to the Services.
                         </span>
                       </span>
@@ -3507,14 +3429,14 @@ const TermsContent: React.FC = () => {
                           active information collection or transmission
                           mechanism, including without limitation, clear
                           graphics interchange formats (
-                          <bdt className="block-component" />
+                          <div className="block-component" />
                           "gifs"
-                          <bdt className="statement-end-if-in-editor" />
+                          <div className="statement-end-if-in-editor" />
                           ), 1×1 pixels, web bugs, cookies, or other similar
                           devices (sometimes referred to as{" "}
-                          <bdt className="block-component" />
+                          <div className="block-component" />
                           "spyware" or "passive collection mechanisms" or "pcms"
-                          <bdt className="statement-end-if-in-editor" />
+                          <div className="statement-end-if-in-editor" />
                           ).
                         </span>
                       </span>
@@ -3945,9 +3867,9 @@ const TermsContent: React.FC = () => {
                           distribute any automated system, including without
                           limitation, any spider, robot, cheat utility, scraper,
                           or offline reader that accesses the Services, or use
-                          or launch any <bdt className="block-component" />
+                          or launch any <div className="block-component" />
                           unauthorized
-                          <bdt className="statement-end-if-in-editor" /> script
+                          <div className="statement-end-if-in-editor" /> script
                           or other software.
                         </span>
                       </span>
@@ -4087,16 +4009,16 @@ const TermsContent: React.FC = () => {
                             color: "rgb(89, 89, 89)"
                           }}
                         >
-                          Make any <bdt className="block-component" />
+                          Make any <div className="block-component" />
                           unauthorized
-                          <bdt className="statement-end-if-in-editor" /> use of
+                          <div className="statement-end-if-in-editor" /> use of
                           the Services, including collecting usernames and/or
                           email addresses of users by electronic or other means
                           for the purpose of sending unsolicited email, or
                           creating user accounts by automated means or under
-                          false <bdt className="block-component" />
+                          false <div className="block-component" />
                           pretenses
-                          <bdt className="statement-end-if-in-editor" />.
+                          <div className="statement-end-if-in-editor" />.
                         </span>
                       </span>
                     </span>
@@ -4168,9 +4090,9 @@ const TermsContent: React.FC = () => {
                           Use the Services as part of any effort to compete with
                           us or otherwise use the Services and/or the Content
                           for any revenue-generating{" "}
-                          <bdt className="block-component" />
+                          <div className="block-component" />
                           endeavor
-                          <bdt className="statement-end-if-in-editor" /> or
+                          <div className="statement-end-if-in-editor" /> or
                           commercial enterprise.
                         </span>
                         <span
@@ -4197,7 +4119,7 @@ const TermsContent: React.FC = () => {
                             textDecorationColor: "initial"
                           }}
                         >
-                          <bdt className="forloop-component" />
+                          <div className="forloop-component" />
                         </span>
                       </span>
                     </span>
@@ -4216,11 +4138,11 @@ const TermsContent: React.FC = () => {
                     color: "rgb(89, 89, 89)"
                   }}
                 >
-                  <bdt className="question">
+                  <div className="question">
                     Use the Services to advertise or offer to sell goods and
                     services.
-                  </bdt>
-                  <bdt className="forloop-component" />
+                  </div>
+                  <div className="forloop-component" />
                 </span>
               </li>
               <li
@@ -4235,10 +4157,10 @@ const TermsContent: React.FC = () => {
                     color: "rgb(89, 89, 89)"
                   }}
                 >
-                  <bdt className="question">
+                  <div className="question">
                     Sell or otherwise transfer your profile.
-                  </bdt>
-                  <bdt className="forloop-component" />
+                  </div>
+                  <div className="forloop-component" />
                 </span>
               </li>
               <li
@@ -4253,10 +4175,10 @@ const TermsContent: React.FC = () => {
                     color: "rgb(89, 89, 89)"
                   }}
                 >
-                  <bdt className="question">
+                  <div className="question">
                     Reverse engineer or decompile the platform software
-                  </bdt>
-                  <bdt className="forloop-component" />
+                  </div>
+                  <div className="forloop-component" />
                 </span>
               </li>
             </ul>
@@ -4270,13 +4192,13 @@ const TermsContent: React.FC = () => {
         </div>
         <div className="MsoNormal" style={{ lineHeight: "17.25px" }}>
           <div className="MsoNormal" style={{ lineHeight: 1 }}>
-            <bdt
+            <div
               className="block-container if"
               data-type="if"
               style={{ textAlign: "left" }}
             >
-              <bdt data-type="conditional-block">
-                <bdt data-type="body">
+              <div data-type="conditional-block">
+                <div data-type="body">
                   <div
                     className="MsoNormal"
                     data-custom-class="heading_1"
@@ -4317,9 +4239,9 @@ const TermsContent: React.FC = () => {
                       </span>
                     </strong>
                   </div>
-                </bdt>
-              </bdt>
-            </bdt>
+                </div>
+              </div>
+            </div>
           </div>
           <div
             className="MsoNormal"
@@ -4328,13 +4250,13 @@ const TermsContent: React.FC = () => {
             <br />
           </div>
           <div className="MsoNormal" style={{ lineHeight: 1 }}>
-            <bdt
+            <div
               className="block-container if"
               data-type="if"
               style={{ textAlign: "left" }}
             >
-              <bdt data-type="conditional-block">
-                <bdt data-type="body">
+              <div data-type="conditional-block">
+                <div data-type="body">
                   <div
                     className="MsoNormal"
                     data-custom-class="body_text"
@@ -4347,20 +4269,20 @@ const TermsContent: React.FC = () => {
                         color: "rgb(89, 89, 89)"
                       }}
                     >
-                      <bdt
+                      <div
                         className="block-container if"
                         data-type="if"
                         id="24327c5d-a34f-f7e7-88f1-65a2f788484f"
                         style={{ textAlign: "left" }}
                       >
-                        <bdt data-type="conditional-block">
-                          <bdt
+                        <div data-type="conditional-block">
+                          <div
                             className="block-component"
                             data-record-question-key="user_post_content_option"
                             data-type="statement"
                           />
-                        </bdt>
-                      </bdt>
+                        </div>
+                      </div>
                       The Services may invite you to chat, contribute to, or
                       participate in blogs, message boards, online forums, and
                       other functionality, and may provide you with the
@@ -4370,26 +4292,26 @@ const TermsContent: React.FC = () => {
                       limited to text, writings, video, audio, photographs,
                       graphics, comments, suggestions, or personal information
                       or other material (collectively,{" "}
-                      <bdt className="block-component" />
+                      <div className="block-component" />
                       "Contributions"
-                      <bdt className="statement-end-if-in-editor" />
+                      <div className="statement-end-if-in-editor" />
                       ). Contributions may be viewable by other users of the
                       Services and through third-party websites. As such, any
                       Contributions you transmit may be treated as
                       non-confidential and non-proprietary. When you create or
                       make available any Contributions, you thereby represent
                       and warrant that:
-                      <bdt className="else-block">
-                        <bdt className="block-component" />
-                      </bdt>
+                      <div className="else-block">
+                        <div className="block-component" />
+                      </div>
                     </span>
                   </div>
                   &nbsp;
-                </bdt>
+                </div>
                 &nbsp;
-              </bdt>
+              </div>
               &nbsp;
-            </bdt>
+            </div>
           </div>
           <ul style={{ fontSize: "medium", textAlign: "left" }}>
             <li data-custom-class="body_text" style={{ lineHeight: "1.5" }}>
@@ -4411,13 +4333,13 @@ const TermsContent: React.FC = () => {
                 <span style={{ fontSize: 14 }}>
                   <span data-custom-class="body_text">
                     You are the creator and owner of or have the necessary{" "}
-                    <bdt className="block-component" />
+                    <div className="block-component" />
                     licenses
-                    <bdt className="statement-end-if-in-editor" />, rights,
+                    <div className="statement-end-if-in-editor" />, rights,
                     consents, releases, and permissions to use and to{" "}
-                    <bdt className="block-component" />
+                    <div className="block-component" />
                     authorize
-                    <bdt className="statement-end-if-in-editor" /> us, the
+                    <div className="statement-end-if-in-editor" /> us, the
                     Services, and other users of the Services to use your
                     Contributions in any manner contemplated by the Services and
                     these Legal Terms.
@@ -4454,9 +4376,9 @@ const TermsContent: React.FC = () => {
                 <span style={{ fontSize: 14 }}>
                   <span data-custom-class="body_text">
                     Your Contributions are not unsolicited or{" "}
-                    <bdt className="block-component" />
+                    <div className="block-component" />
                     unauthorized
-                    <bdt className="statement-end-if-in-editor" /> advertising,
+                    <div className="statement-end-if-in-editor" /> advertising,
                     promotional materials, pyramid schemes, chain letters, spam,
                     mass mailings, or other forms of solicitation.
                   </span>
@@ -4469,9 +4391,9 @@ const TermsContent: React.FC = () => {
                   <span data-custom-class="body_text">
                     Your Contributions are not obscene, lewd, lascivious,
                     filthy, violent, harassing,{" "}
-                    <bdt className="block-component" />
+                    <div className="block-component" />
                     libelous
-                    <bdt className="statement-end-if-in-editor" />, slanderous,
+                    <div className="statement-end-if-in-editor" />, slanderous,
                     or otherwise objectionable (as determined by us).
                   </span>
                 </span>
@@ -4560,13 +4482,13 @@ const TermsContent: React.FC = () => {
         className="MsoNormal"
         style={{ textAlign: "justify", lineHeight: "1.5" }}
       >
-        <bdt
+        <div
           className="block-container if"
           data-type="if"
           style={{ textAlign: "left" }}
         >
-          <bdt data-type="conditional-block">
-            <bdt data-type="body">
+          <div data-type="conditional-block">
+            <div data-type="body">
               <div
                 className="MsoNormal"
                 data-custom-class="body_text"
@@ -4584,9 +4506,9 @@ const TermsContent: React.FC = () => {
                   termination or suspension of your rights to use the Services.
                 </span>
               </div>
-            </bdt>
-          </bdt>
-        </bdt>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <br />
@@ -4595,13 +4517,13 @@ const TermsContent: React.FC = () => {
         className="MsoNormal"
         style={{ textAlign: "justify", lineHeight: 1 }}
       >
-        <bdt
+        <div
           className="block-container if"
           data-type="if"
           style={{ textAlign: "left" }}
         >
-          <bdt data-type="conditional-block">
-            <bdt data-type="body">
+          <div data-type="conditional-block">
+            <div data-type="body">
               <div
                 className="MsoNormal"
                 data-custom-class="heading_1"
@@ -4636,41 +4558,41 @@ const TermsContent: React.FC = () => {
                       </span>
                       &nbsp;
                     </strong>
-                    CONTRIBUTION <bdt className="block-component" />
+                    CONTRIBUTION <div className="block-component" />
                     LICENSE
-                    <bdt className="statement-end-if-in-editor" />
+                    <div className="statement-end-if-in-editor" />
                   </span>
                 </strong>
               </div>
-            </bdt>
-          </bdt>
-        </bdt>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <br />
       </div>
       <div className="MsoNormal" style={{ lineHeight: 1 }}>
-        <bdt
+        <div
           className="block-container if"
           data-type="if"
           id="a088ddfb-d8c1-9e58-6f21-958c3f4f0709"
           style={{ textAlign: "left" }}
         >
-          <bdt data-type="conditional-block">
-            <bdt
+          <div data-type="conditional-block">
+            <div
               className="block-component"
               data-record-question-key="user_post_content_option"
               data-type="statement"
             />
-          </bdt>
-        </bdt>
-        <bdt
+          </div>
+        </div>
+        <div
           className="block-container if"
           data-type="if"
           style={{ textAlign: "left" }}
         >
-          <bdt data-type="conditional-block">
-            <bdt data-type="body">
+          <div data-type="conditional-block">
+            <div data-type="body">
               <div
                 className="MsoNormal"
                 data-custom-class="body_text"
@@ -4684,35 +4606,35 @@ const TermsContent: React.FC = () => {
                   }}
                 >
                   By posting your Contributions to any part of the Services
-                  <bdt
+                  <div
                     className="block-container if"
                     data-type="if"
                     id="19652acc-9a2a-5ffe-6189-9474402fa6cc"
                   >
-                    <bdt data-type="conditional-block">
-                      <bdt
+                    <div data-type="conditional-block">
+                      <div
                         className="block-component"
                         data-record-question-key="socialnetwork_link_option"
                         data-type="statement"
                       />
-                      <bdt data-type="body">
+                      <div data-type="body">
                         &nbsp;or making Contributions accessible to the Services
                         by linking your account from the Services to any of your
                         social networking accounts
-                      </bdt>
-                    </bdt>
-                    <bdt
+                      </div>
+                    </div>
+                    <div
                       className="statement-end-if-in-editor"
                       data-type="close"
                     />
-                  </bdt>
+                  </div>
                   , you automatically grant, and you represent and warrant that
                   you have the right to grant, to us an unrestricted, unlimited,
                   irrevocable, perpetual, non-exclusive, transferable,
                   royalty-free, fully-paid, worldwide right, and{" "}
-                  <bdt className="block-component" />
+                  <div className="block-component" />
                   license
-                  <bdt className="statement-end-if-in-editor" /> to host, use,
+                  <div className="statement-end-if-in-editor" /> to host, use,
                   copy, reproduce, disclose, sell, resell, publish, broadcast,
                   retitle, archive, store, cache, publicly perform, publicly
                   display, reformat, translate, transmit, excerpt (in whole or
@@ -4721,16 +4643,16 @@ const TermsContent: React.FC = () => {
                   commercial, advertising, or otherwise, and to prepare
                   derivative works of, or incorporate into other works, such
                   Contributions, and grant and{" "}
-                  <bdt className="block-component" />
+                  <div className="block-component" />
                   authorize sublicenses
-                  <bdt className="statement-end-if-in-editor" /> of the
+                  <div className="statement-end-if-in-editor" /> of the
                   foregoing. The use and distribution may occur in any media
                   formats and through any media channels.
                 </span>
               </div>
-            </bdt>
-          </bdt>
-        </bdt>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <br />
@@ -4739,13 +4661,13 @@ const TermsContent: React.FC = () => {
         className="MsoNormal"
         style={{ textAlign: "justify", lineHeight: 1 }}
       >
-        <bdt
+        <div
           className="block-container if"
           data-type="if"
           style={{ textAlign: "left" }}
         >
-          <bdt data-type="conditional-block">
-            <bdt data-type="body">
+          <div data-type="conditional-block">
+            <div data-type="body">
               <div
                 className="MsoNormal"
                 data-custom-class="body_text"
@@ -4758,9 +4680,9 @@ const TermsContent: React.FC = () => {
                     color: "rgb(89, 89, 89)"
                   }}
                 >
-                  This <bdt className="block-component" />
+                  This <div className="block-component" />
                   license
-                  <bdt className="statement-end-if-in-editor" /> will apply to
+                  <div className="statement-end-if-in-editor" /> will apply to
                   any form, media, or technology now known or hereafter
                   developed, and includes our use of your name, company name,
                   and franchise name, as applicable, and any of the trademarks,
@@ -4770,9 +4692,9 @@ const TermsContent: React.FC = () => {
                   otherwise been asserted in your Contributions.
                 </span>
               </div>
-            </bdt>
-          </bdt>
-        </bdt>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <br />
@@ -4781,13 +4703,13 @@ const TermsContent: React.FC = () => {
         className="MsoNormal"
         style={{ textAlign: "justify", lineHeight: 1 }}
       >
-        <bdt
+        <div
           className="block-container if"
           data-type="if"
           style={{ textAlign: "left" }}
         >
-          <bdt data-type="conditional-block">
-            <bdt data-type="body">
+          <div data-type="conditional-block">
+            <div data-type="body">
               <div
                 className="MsoNormal"
                 data-custom-class="body_text"
@@ -4811,9 +4733,9 @@ const TermsContent: React.FC = () => {
                   from any legal action against us regarding your Contributions.
                 </span>
               </div>
-            </bdt>
-          </bdt>
-        </bdt>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <br />
@@ -4822,13 +4744,13 @@ const TermsContent: React.FC = () => {
         className="MsoNormal"
         style={{ textAlign: "justify", lineHeight: 1 }}
       >
-        <bdt
+        <div
           className="block-container if"
           data-type="if"
           style={{ textAlign: "left" }}
         >
-          <bdt data-type="conditional-block">
-            <bdt data-type="body">
+          <div data-type="conditional-block">
+            <div data-type="body">
               <div
                 className="MsoNormal"
                 data-custom-class="body_text"
@@ -4843,32 +4765,32 @@ const TermsContent: React.FC = () => {
                 >
                   We have the right, in our sole and absolute discretion, (1) to
                   edit, redact, or otherwise change any Contributions; (2) to{" "}
-                  <bdt className="block-component" />
+                  <div className="block-component" />
                   re-categorize
-                  <bdt className="statement-end-if-in-editor" /> any
+                  <div className="statement-end-if-in-editor" /> any
                   Contributions to place them in more appropriate locations on
                   the Services; and (3) to pre-screen or delete any
                   Contributions at any time and for any reason, without notice.
                   We have no obligation to monitor your Contributions.
                 </span>
               </div>
-            </bdt>
-          </bdt>
-        </bdt>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div align="center" style={{ textAlign: "left" }}>
+    <div style={{ textAlign: "left" }}>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <br />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt
+        <div
           className="block-container if"
           data-type="if"
           style={{ textAlign: "left" }}
         >
-          <bdt data-type="conditional-block">
-            <bdt data-type="body">
+          <div data-type="conditional-block">
+            <div data-type="body">
               <span
                 style={{
                   fontSize: "11pt",
@@ -4876,60 +4798,60 @@ const TermsContent: React.FC = () => {
                   color: "rgb(89, 89, 89)"
                 }}
               >
-                <bdt className="else-block" />
+                <div className="else-block" />
               </span>
-            </bdt>
-          </bdt>
-        </bdt>
+            </div>
+          </div>
+        </div>
       </div>
       <div
         className="MsoNormal"
         data-custom-class="body_text"
         style={{ lineHeight: "1.5" }}
       >
-        <bdt
+        <div
           className="block-container if"
           data-type="if"
           style={{ textAlign: "left" }}
         >
-          <bdt data-type="conditional-block">
-            <bdt
+          <div data-type="conditional-block">
+            <div
               className="block-component"
               data-record-question-key="review_option"
               data-type="statement"
             />
-          </bdt>
-        </bdt>
+          </div>
+        </div>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt
+        <div
           className="block-container if"
           data-type="if"
           style={{ textAlign: "left" }}
         >
-          <bdt data-type="conditional-block">
-            <bdt
+          <div data-type="conditional-block">
+            <div
               className="block-component"
               data-record-question-key="mobile_app_option"
               data-type="statement"
             />
-          </bdt>
-        </bdt>
+          </div>
+        </div>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt
+        <div
           className="block-container if"
           data-type="if"
           style={{ textAlign: "left" }}
         >
-          <bdt data-type="conditional-block">
-            <bdt
+          <div data-type="conditional-block">
+            <div
               className="block-component"
               data-record-question-key="socialnetwork_link_option"
               data-type="statement"
             />
-          </bdt>
-        </bdt>
+          </div>
+        </div>
       </div>
       <div
         className="MsoNormal"
@@ -4967,13 +4889,13 @@ const TermsContent: React.FC = () => {
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <br />
-        <bdt
+        <div
           className="block-container if"
           data-type="if"
           style={{ textAlign: "left" }}
         >
-          <bdt data-type="conditional-block">
-            <bdt data-type="body">
+          <div data-type="conditional-block">
+            <div data-type="body">
               <div
                 className="MsoNormal"
                 data-custom-class="body_text"
@@ -4989,9 +4911,9 @@ const TermsContent: React.FC = () => {
                   As part of the functionality of the Services, you may link
                   your account with online accounts you have with third-party
                   service providers (each such account, a{" "}
-                  <bdt className="block-component" />
+                  <div className="block-component" />
                   "Third-Party Account"
-                  <bdt className="statement-end-if-in-editor" />) by either: (1)
+                  <div className="statement-end-if-in-editor" />) by either: (1)
                   providing your Third-Party Account login information through
                   the Services; or (2) allowing us to access your{" "}
                   <span style={{ fontSize: "14.6667px" }}>Third-Party</span>{" "}
@@ -5016,9 +4938,9 @@ const TermsContent: React.FC = () => {
                   available, and store (if applicable) any content that you have
                   provided to and stored in your{" "}
                   <span style={{ fontSize: "14.6667px" }}>Third-Party</span>{" "}
-                  Account (the <bdt className="block-component" />
+                  Account (the <div className="block-component" />
                   "Social Network Content"
-                  <bdt className="statement-end-if-in-editor" />) so that it is
+                  <div className="statement-end-if-in-editor" />) so that it is
                   available on and through the Services via your account,
                   including without limitation any friend lists and (2) we may
                   submit to and receive from your{" "}
@@ -5070,21 +4992,21 @@ const TermsContent: React.FC = () => {
                   associated with your account.
                 </span>
               </div>
-            </bdt>
-          </bdt>
-        </bdt>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <br />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.1" }}>
-        <bdt
+        <div
           className="block-container if"
           data-type="if"
           style={{ textAlign: "left" }}
         >
-          <bdt data-type="conditional-block">
-            <bdt data-type="body">
+          <div data-type="conditional-block">
+            <div data-type="body">
               <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
                 <span
                   style={{
@@ -5094,24 +5016,24 @@ const TermsContent: React.FC = () => {
                   }}
                 />
               </div>
-            </bdt>
-          </bdt>
-        </bdt>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt
+        <div
           className="block-container if"
           data-type="if"
           style={{ textAlign: "left" }}
         >
-          <bdt data-type="conditional-block">
-            <bdt
+          <div data-type="conditional-block">
+            <div
               className="block-component"
               data-record-question-key="3rd_party_option"
               data-type="statement"
             />
-          </bdt>
-        </bdt>
+          </div>
+        </div>
       </div>
       <div
         className="MsoNormal"
@@ -5163,18 +5085,18 @@ const TermsContent: React.FC = () => {
           }}
         >
           The Services may contain (or you may be sent via the{" "}
-          <bdt className="block-component" />
+          <div className="block-component" />
           Site
-          <bdt className="block-component" />) links to other websites (
-          <bdt className="block-component" />
+          <div className="block-component" />) links to other websites (
+          <div className="block-component" />
           "Third-Party Websites"
-          <bdt className="statement-end-if-in-editor" />) as well as articles,
+          <div className="statement-end-if-in-editor" />) as well as articles,
           photographs, text, graphics, pictures, designs, music, sound, video,
           information, applications, software, and other content or items
           belonging to or originating from third parties (
-          <bdt className="block-component" />
+          <div className="block-component" />
           "Third-Party Content"
-          <bdt className="statement-end-if-in-editor" />
+          <div className="statement-end-if-in-editor" />
           ). Such <span style={{ fontSize: "14.6667px" }}>
             Third-Party
           </span>{" "}
@@ -5222,28 +5144,28 @@ const TermsContent: React.FC = () => {
         <br />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt
+        <div
           className="block-container if"
           data-type="if"
           style={{ textAlign: "left" }}
         >
-          <bdt className="statement-end-if-in-editor" data-type="close" />
-        </bdt>
+          <div className="statement-end-if-in-editor" data-type="close" />
+        </div>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt
+        <div
           className="block-container if"
           data-type="if"
           style={{ textAlign: "left" }}
         >
-          <bdt data-type="conditional-block">
-            <bdt
+          <div data-type="conditional-block">
+            <div
               className="block-component"
               data-record-question-key="advertiser_option"
               data-type="statement"
             />
-          </bdt>
-        </bdt>
+          </div>
+        </div>
       </div>
       <div
         className="MsoNormal"
@@ -5305,13 +5227,13 @@ const TermsContent: React.FC = () => {
         <br />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt
+        <div
           className="block-container if"
           data-type="if"
           style={{ textAlign: "left" }}
         >
-          <bdt className="statement-end-if-in-editor" data-type="close" />
-        </bdt>
+          <div className="statement-end-if-in-editor" data-type="close" />
+        </div>
       </div>
       <div
         className="MsoNormal"
@@ -5377,19 +5299,19 @@ const TermsContent: React.FC = () => {
         <br />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt
+        <div
           className="block-container if"
           data-type="if"
           style={{ textAlign: "left" }}
         >
-          <bdt data-type="conditional-block">
-            <bdt
+          <div data-type="conditional-block">
+            <div
               className="block-component"
               data-record-question-key="privacy_policy_option"
               data-type="statement"
             />
-          </bdt>
-        </bdt>
+          </div>
+        </div>
       </div>
       <div
         className="MsoNormal"
@@ -5445,21 +5367,21 @@ const TermsContent: React.FC = () => {
           <strong>
             &nbsp;
             <span style={{ color: "rgb(0, 58, 250)" }}>
-              <bdt
+              <div
                 className="block-container question question-in-editor"
                 data-id="d10c7fd7-0685-12ac-c717-cbc45ff916d1"
                 data-type="question"
               >
                 www.lendflow.sucks/privacy-policy
-              </bdt>
+              </div>
             </span>
           </strong>
           . By using the Services, you agree to be bound by our Privacy Policy,
           which is incorporated into these Legal Terms. Please be advised the
-          Services are hosted in <bdt className="block-component" />
-          the <bdt className="question">United States</bdt>
-          <bdt className="block-component" />
-          <bdt className="block-component" />. If you access the Services from
+          Services are hosted in <div className="block-component" />
+          the <div className="question">United States</div>
+          <div className="block-component" />
+          <div className="block-component" />. If you access the Services from
           any other region of the world with laws or other requirements
           governing personal data collection, use, or disclosure that differ
           from applicable laws in{" "}
@@ -5470,11 +5392,11 @@ const TermsContent: React.FC = () => {
               color: "rgb(89, 89, 89)"
             }}
           >
-            <bdt className="block-component" />
-            the <bdt className="question">United States</bdt>
-            <bdt className="block-component" />
+            <div className="block-component" />
+            the <div className="question">United States</div>
+            <div className="block-component" />
           </span>
-          <bdt className="block-component" />, then through your continued use
+          <div className="block-component" />, then through your continued use
           of the Services, you are transferring your data to{" "}
           <span
             style={{
@@ -5483,11 +5405,11 @@ const TermsContent: React.FC = () => {
               color: "rgb(89, 89, 89)"
             }}
           >
-            <bdt className="block-component" />
-            the <bdt className="question">United States</bdt>
-            <bdt className="block-component" />
+            <div className="block-component" />
+            the <div className="question">United States</div>
+            <div className="block-component" />
           </span>
-          <bdt className="block-component" />, and you expressly consent to have
+          <div className="block-component" />, and you expressly consent to have
           your data transferred to and processed in{" "}
           <span
             style={{
@@ -5496,19 +5418,19 @@ const TermsContent: React.FC = () => {
               color: "rgb(89, 89, 89)"
             }}
           >
-            <bdt className="block-component" />
-            the <bdt className="question">United States</bdt>
-            <bdt className="block-component" />
+            <div className="block-component" />
+            the <div className="question">United States</div>
+            <div className="block-component" />
           </span>
-          <bdt className="block-component" />.
-          <bdt className="block-component" />
-          <bdt
+          <div className="block-component" />.
+          <div className="block-component" />
+          <div
             className="block-container if"
             data-type="if"
             id="547bb7bb-ecf2-84b9-1cbb-a861dc3e14e7"
           >
-            <bdt data-type="conditional-block">
-              <bdt
+            <div data-type="conditional-block">
+              <div
                 className="block-component"
                 data-record-question-key="user_u13_option"
                 data-type="statement"
@@ -5520,74 +5442,74 @@ const TermsContent: React.FC = () => {
                     color: "rgb(89, 89, 89)"
                   }}
                 >
-                  <bdt className="statement-end-if-in-editor" />
+                  <div className="statement-end-if-in-editor" />
                 </span>
-              </bdt>
-            </bdt>
-          </bdt>
+              </div>
+            </div>
+          </div>
         </span>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
         <br />
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt
+        <div
           className="block-container if"
           data-type="if"
           style={{ textAlign: "left" }}
         >
-          <bdt className="statement-end-if-in-editor" data-type="close" />
-        </bdt>
-        <bdt className="block-container if" data-type="if">
-          <bdt data-type="conditional-block">
-            <bdt
+          <div className="statement-end-if-in-editor" data-type="close" />
+        </div>
+        <div className="block-container if" data-type="if">
+          <div data-type="conditional-block">
+            <div
               className="block-component"
               data-record-question-key="privacy_policy_followup"
               data-type="statement"
               style={{ fontSize: "14.6667px" }}
             />
-          </bdt>
-        </bdt>
+          </div>
+        </div>
       </div>
       <div className="MsoNormal" style={{ lineHeight: "1.5" }}>
-        <bdt
+        <div
           className="block-container if"
           data-type="if"
           style={{ textAlign: "left" }}
         >
-          <bdt data-type="conditional-block">
-            <bdt
+          <div data-type="conditional-block">
+            <div
               className="block-component"
               data-record-question-key="copyright_agent_option"
               data-type="statement"
             >
-              <bdt className="block-component" />
-              <bdt className="block-component" />
-            </bdt>
-            <bdt
+              <div className="block-component" />
+              <div className="block-component" />
+            </div>
+            <div
               className="block-container if"
               data-type="if"
               style={{ textAlign: "left" }}
             >
-              <bdt className="statement-end-if-in-editor" data-type="close" />
-            </bdt>
-          </bdt>
-        </bdt>
+              <div className="statement-end-if-in-editor" data-type="close" />
+            </div>
+          </div>
+        </div>
       </div>
       <div
         className="MsoNormal"
         style={{ lineHeight: "1.5", textAlign: "left" }}
       >
-        <bdt className="block-component" />
-        <bdt
+        <div className="block-component" />
+        <div
           className="block-container if"
           data-type="if"
           style={{ textAlign: "left" }}
         >
-          <bdt className="statement-end-if-in-editor" data-type="close">
-            <bdt className="block-component" />
-          </bdt>
-        </bdt>
+          <div className="statement-end-if-in-editor" data-type="close">
+            <div className="block-component" />
+          </div>
+        </div>
       </div>
       <div
         className="MsoNormal"
@@ -5649,9 +5571,9 @@ const TermsContent: React.FC = () => {
           that any material available on or through the Services infringes upon
           any copyright you own or control, please immediately notify us using
           the contact information provided below (a{" "}
-          <bdt className="block-component" />
+          <div className="block-component" />
           "Notification"
-          <bdt className="statement-end-if-in-editor" />
+          <div className="statement-end-if-in-editor" />
           ). A copy of your Notification will be sent to the person who posted
           or stored the material addressed in the Notification. Please be
           advised that pursuant to applicable law you may be held liable for
@@ -5671,14 +5593,14 @@ const TermsContent: React.FC = () => {
         className="MsoNormal"
         style={{ lineHeight: "1.5", textAlign: "left" }}
       >
-        <bdt
+        <div
           className="block-container if"
           data-type="if"
           style={{ textAlign: "left" }}
         >
-          <bdt className="statement-end-if-in-editor" data-type="close" />
-        </bdt>
-        <bdt className="block-component" />
+          <div className="statement-end-if-in-editor" data-type="close" />
+        </div>
+        <div className="block-component" />
       </div>
       <div
         className="MsoNormal"
@@ -5745,21 +5667,21 @@ const TermsContent: React.FC = () => {
           WARRANTY, OR COVENANT CONTAINED IN THESE LEGAL TERMS OR OF ANY
           APPLICABLE LAW OR REGULATION. WE MAY TERMINATE YOUR USE OR
           PARTICIPATION IN THE SERVICES OR DELETE{" "}
-          <bdt
+          <div
             className="block-container if"
             data-type="if"
             id="a6e121c2-36b4-5066-bf9f-a0a33512e768"
           >
-            <bdt data-type="conditional-block">
-              <bdt
+            <div data-type="conditional-block">
+              <div
                 className="block-component"
                 data-record-question-key="user_account_option"
                 data-type="statement"
               />
-              <bdt data-type="body">YOUR ACCOUNT AND&nbsp;</bdt>
-            </bdt>
-            <bdt className="statement-end-if-in-editor" data-type="close" />
-          </bdt>
+              <div data-type="body">YOUR ACCOUNT AND&nbsp;</div>
+            </div>
+            <div className="statement-end-if-in-editor" data-type="close" />
+          </div>
           ANY CONTENT OR INFORMATION THAT YOU POSTED AT ANY TIME, WITHOUT
           WARNING, IN OUR SOLE DISCRETION.
         </span>
@@ -5857,7 +5779,7 @@ const TermsContent: React.FC = () => {
           Services at any time or for any reason at our sole discretion without
           notice. However, we have no obligation to update any information on
           our Services.
-          <bdt className="block-component" /> We will not be liable to you or
+          <div className="block-component" /> We will not be liable to you or
           any third party for any modification, price change, suspension, or
           discontinuance of the Services.
         </span>
@@ -5955,7 +5877,7 @@ const TermsContent: React.FC = () => {
             color: "rgb(89, 89, 89)"
           }}
         >
-          <bdt className="block-component" />
+          <div className="block-component" />
         </span>
       </div>
       <div
@@ -5972,38 +5894,38 @@ const TermsContent: React.FC = () => {
         >
           These Legal Terms and your use of the Services are governed by and
           construed in accordance with the laws of{" "}
-          <bdt
+          <div
             className="block-container if"
             data-type="if"
             id="b86653c1-52f0-c88c-a218-e300b912dd6b"
           >
-            <bdt data-type="conditional-block">
-              <bdt
+            <div data-type="conditional-block">
+              <div
                 className="block-component"
                 data-record-question-key="governing_law"
                 data-type="statement"
               />
-              <bdt data-type="body">
+              <div data-type="body">
                 the State of{" "}
-                <bdt
+                <div
                   className="block-container question question-in-editor"
                   data-id="b61250bd-6b61-32ea-a9e7-4a02690297c3"
                   data-type="question"
                 >
                   Delaware
-                </bdt>
-              </bdt>
-            </bdt>
-            <bdt className="statement-end-if-in-editor" data-type="close" />
-          </bdt>{" "}
+                </div>
+              </div>
+            </div>
+            <div className="statement-end-if-in-editor" data-type="close" />
+          </div>{" "}
           applicable to agreements made and to be entirely performed within
-          <bdt
+          <div
             className="block-container if"
             data-type="if"
             id="b86653c1-52f0-c88c-a218-e300b912dd6b"
             style={{ fontSize: "14.6667px" }}
           >
-            <bdt data-type="conditional-block">
+            <div data-type="conditional-block">
               &nbsp;
               <span
                 style={{
@@ -6012,39 +5934,39 @@ const TermsContent: React.FC = () => {
                   color: "rgb(89, 89, 89)"
                 }}
               >
-                <bdt
+                <div
                   className="block-container if"
                   data-type="if"
                   id="b86653c1-52f0-c88c-a218-e300b912dd6b"
                 >
-                  <bdt data-type="conditional-block">
-                    <bdt
+                  <div data-type="conditional-block">
+                    <div
                       className="block-component"
                       data-record-question-key="governing_law"
                       data-type="statement"
                     />
-                    <bdt data-type="body">
+                    <div data-type="body">
                       the State of{" "}
-                      <bdt
+                      <div
                         className="block-container question question-in-editor"
                         data-id="b61250bd-6b61-32ea-a9e7-4a02690297c3"
                         data-type="question"
                       >
                         Delaware
-                      </bdt>
-                    </bdt>
-                  </bdt>
-                  <bdt
+                      </div>
+                    </div>
+                  </div>
+                  <div
                     className="statement-end-if-in-editor"
                     data-type="close"
                   />
-                </bdt>
+                </div>
                 <span style={{ fontSize: "14.6667px" }}>,&nbsp;</span>without
                 regard to its conflict of law principles.
-                <bdt className="block-component" />
+                <div className="block-component" />
               </span>
-            </bdt>
-          </bdt>
+            </div>
+          </div>
         </span>
       </div>
       <div
@@ -6101,13 +6023,13 @@ const TermsContent: React.FC = () => {
         className="MsoNormal"
         style={{ lineHeight: "1.5", textAlign: "left" }}
       >
-        <bdt className="block-component" />
+        <div className="block-component" />
       </div>
       <div
         className="MsoNormal"
         style={{ lineHeight: "1.5", textAlign: "left" }}
       >
-        <bdt className="block-component" />
+        <div className="block-component" />
       </div>
       <div
         className="MsoNormal"
@@ -6130,15 +6052,15 @@ const TermsContent: React.FC = () => {
         <span style={{ fontSize: 15 }}>
           To expedite resolution and control the cost of any dispute,
           controversy, or claim related to these Legal Terms (each a{" "}
-          <bdt className="block-component" />
+          <div className="block-component" />
           "Dispute" and collectively, the "Disputes"
-          <bdt className="statement-end-if-in-editor" />) brought by either you
-          or us (individually, a <bdt className="block-component" />
+          <div className="statement-end-if-in-editor" />) brought by either you
+          or us (individually, a <div className="block-component" />
           "Party" and collectively, the "Parties"
-          <bdt className="statement-end-if-in-editor" />
+          <div className="statement-end-if-in-editor" />
           ), the Parties agree to first attempt to negotiate any Dispute (except
           those Disputes expressly provided below) informally for at least{" "}
-          <bdt className="question">thirty (30)</bdt> days before initiating
+          <div className="question">thirty (30)</div> days before initiating
           arbitration. Such informal negotiations commence upon written notice
           from one Party to the other Party.
         </span>
@@ -6153,7 +6075,7 @@ const TermsContent: React.FC = () => {
         className="MsoNormal"
         style={{ lineHeight: "1.5", textAlign: "left" }}
       >
-        <bdt className="statement-end-if-in-editor" />
+        <div className="statement-end-if-in-editor" />
       </div>
       <div
         className="MsoNormal"
@@ -6173,25 +6095,25 @@ const TermsContent: React.FC = () => {
         data-custom-class="body_text"
         style={{ lineHeight: "1.5", textAlign: "left" }}
       >
-        <bdt className="block-component">
+        <div className="block-component">
           <span style={{ fontSize: 15 }} />
-        </bdt>
+        </div>
         <span style={{ fontSize: 15 }}>
           If the Parties are unable to resolve a Dispute through informal
           negotiations, the Dispute (except those Disputes expressly excluded
           below) will be finally and exclusively resolved by binding
           arbitration. YOU UNDERSTAND THAT WITHOUT THIS PROVISION, YOU WOULD
           HAVE THE RIGHT TO SUE IN COURT AND HAVE A JURY TRIAL.{" "}
-          <bdt className="block-component" />
+          <div className="block-component" />
           The arbitration shall be commenced and conducted under the Commercial
           Arbitration Rules of the American Arbitration Association (
-          <bdt className="block-component" />
+          <div className="block-component" />
           "AAA"
-          <bdt className="statement-end-if-in-editor" />) and, where
+          <div className="statement-end-if-in-editor" />) and, where
           appropriate, the AAA’s Supplementary Procedures for Consumer Related
-          Disputes (<bdt className="block-component" />
+          Disputes (<div className="block-component" />
           "AAA Consumer Rules"
-          <bdt className="statement-end-if-in-editor" />
+          <div className="statement-end-if-in-editor" />
           ), both of which are available at the{" "}
           <span
             style={{
@@ -6211,27 +6133,27 @@ const TermsContent: React.FC = () => {
           </span>
           . Your arbitration fees and your share of arbitrator compensation
           shall be governed by the AAA Consumer Rules and, where appropriate,
-          limited by the AAA Consumer Rules. <bdt className="else-block" />
+          limited by the AAA Consumer Rules. <div className="else-block" />
           The arbitration may be conducted in person, through the submission of
           documents, by phone, or online. The arbitrator will make a decision in
           writing, but need not provide a statement of reasons unless requested
           by either Party. The arbitrator must follow applicable law, and any
           award may be challenged if the arbitrator fails to do so. Except where
           otherwise required by the applicable{" "}
-          <bdt className="block-component" />
+          <div className="block-component" />
           AAA
-          <bdt className="else-block" /> rules or applicable law, the
-          arbitration will take place in <bdt className="block-component" />
-          <bdt className="question">Dover</bdt>,{" "}
-          <bdt className="statement-end-if-in-editor" />
-          <bdt className="block-component" />
-          <bdt className="question">Delaware</bdt>
-          <bdt className="statement-end-if-in-editor" />. Except as otherwise
+          <div className="else-block" /> rules or applicable law, the
+          arbitration will take place in <div className="block-component" />
+          <div className="question">Dover</div>,{" "}
+          <div className="statement-end-if-in-editor" />
+          <div className="block-component" />
+          <div className="question">Delaware</div>
+          <div className="statement-end-if-in-editor" />. Except as otherwise
           provided herein, the Parties may litigate in court to compel
           arbitration, stay proceedings pending arbitration, or to confirm,
-          modify, vacate, or enter <bdt className="block-component" />
+          modify, vacate, or enter <div className="block-component" />
           judgment
-          <bdt className="statement-end-if-in-editor" /> on the award entered by
+          <div className="statement-end-if-in-editor" /> on the award entered by
           the arbitrator.
         </span>
       </div>
@@ -6250,30 +6172,30 @@ const TermsContent: React.FC = () => {
           If for any reason, a Dispute proceeds in court rather than
           arbitration, the Dispute shall be commenced or prosecuted in the
         </span>{" "}
-        <bdt className="block-component" style={{ fontSize: 15 }} />
+        <div className="block-component" style={{ fontSize: 15 }} />
         <span style={{ fontSize: 15 }}>&nbsp;state and federal courts</span>
-        <bdt className="statement-end-if-in-editor" style={{ fontSize: 15 }} />
+        <div className="statement-end-if-in-editor" style={{ fontSize: 15 }} />
         <span style={{ fontSize: 15 }}>&nbsp;located in</span>
-        <bdt className="block-component" style={{ fontSize: 15 }} />{" "}
-        <bdt className="question">Dover</bdt>
+        <div className="block-component" style={{ fontSize: 15 }} />{" "}
+        <div className="question">Dover</div>
         <span style={{ fontSize: 15 }}>,</span>
-        <bdt className="statement-end-if-in-editor" style={{ fontSize: 15 }}>
+        <div className="statement-end-if-in-editor" style={{ fontSize: 15 }}>
           &nbsp;
-        </bdt>
-        <bdt className="block-component" style={{ fontSize: 15 }} />
-        <bdt className="question" style={{ fontSize: 15 }}>
+        </div>
+        <div className="block-component" style={{ fontSize: 15 }} />
+        <div className="question" style={{ fontSize: 15 }}>
           Delaware
-        </bdt>
-        <bdt className="statement-end-if-in-editor" style={{ fontSize: 15 }} />
+        </div>
+        <div className="statement-end-if-in-editor" style={{ fontSize: 15 }} />
         <span style={{ fontSize: 15 }}>
           , and the Parties hereby consent to, and waive all{" "}
-          <bdt className="block-component" />
+          <div className="block-component" />
           defenses
-          <bdt className="statement-end-if-in-editor" /> of lack of personal
+          <div className="statement-end-if-in-editor" /> of lack of personal
           jurisdiction, and forum non conveniens with respect to venue and
           jurisdiction in such
-          <bdt className="block-component" /> state and federal courts
-          <bdt className="statement-end-if-in-editor" />. Application of the
+          <div className="block-component" /> state and federal courts
+          <div className="statement-end-if-in-editor" />. Application of the
           United Nations Convention on Contracts for the International Sale of
           Goods and the Uniform Computer Information Transaction Act (UCITA) are
           excluded from these Legal Terms.
@@ -6291,18 +6213,18 @@ const TermsContent: React.FC = () => {
         style={{ lineHeight: "1.5", textAlign: "left" }}
       >
         <span style={{ fontSize: 15 }}>
-          <bdt className="block-component" />
+          <div className="block-component" />
           In no event shall any Dispute brought by either Party related in any
           way to the Services be commenced more than{" "}
-          <bdt className="question">one (1)</bdt> years after the cause of
-          action arose. <bdt className="statement-end-if-in-editor" />
+          <div className="question">one (1)</div> years after the cause of
+          action arose. <div className="statement-end-if-in-editor" />
           If this provision is found to be illegal or unenforceable, then
           neither Party will elect to arbitrate any Dispute falling within that
           portion of this provision found to be illegal or unenforceable and
           such Dispute shall be decided by a court of competent jurisdiction
           within the courts listed for jurisdiction above, and the Parties agree
           to submit to the personal jurisdiction of that court.
-          <bdt className="block-component" />
+          <div className="block-component" />
         </span>
       </div>
       <div
@@ -6333,9 +6255,9 @@ const TermsContent: React.FC = () => {
         between the Parties individually. To the full extent permitted by law,
         (a) no arbitration shall be joined with any other proceeding; (b) there
         is no right or authority for any Dispute to be arbitrated on a
-        class-action basis or to <bdt className="block-component" />
+        class-action basis or to <div className="block-component" />
         utilize
-        <bdt className="statement-end-if-in-editor" /> class action procedures;
+        <div className="statement-end-if-in-editor" /> class action procedures;
         and (c) there is no right or authority for any Dispute to be brought in
         a purported representative capacity on behalf of the general public or
         any other persons.
@@ -6351,9 +6273,9 @@ const TermsContent: React.FC = () => {
         data-custom-class="heading_2"
         style={{ lineHeight: "1.5", textAlign: "left" }}
       >
-        <bdt className="block-component" />
+        <div className="block-component" />
         <strong>Exceptions to Informal Negotiations and Arbitration</strong>
-        <bdt className="statement-end-if-in-editor" />
+        <div className="statement-end-if-in-editor" />
       </div>
       <div
         className="MsoNormal"
@@ -6366,30 +6288,30 @@ const TermsContent: React.FC = () => {
         data-custom-class="body_text"
         style={{ lineHeight: "1.5", textAlign: "left" }}
       >
-        <bdt className="block-component" />
+        <div className="block-component" />
         The Parties agree that the following Disputes are not subject to the
         above provisions concerning informal negotiations binding arbitration:
         (a) any Disputes seeking to enforce or protect, or concerning the
         validity of, any of the intellectual property rights of a Party; (b) any
         Dispute related to, or arising from, allegations of theft, piracy,
-        invasion of privacy, or <bdt className="block-component" />
+        invasion of privacy, or <div className="block-component" />
         unauthorized
-        <bdt className="statement-end-if-in-editor" /> use; and (c) any claim
+        <div className="statement-end-if-in-editor" /> use; and (c) any claim
         for injunctive relief. If this provision is found to be illegal or
         unenforceable, then neither Party will elect to arbitrate any Dispute
         falling within that portion of this provision found to be illegal or
         unenforceable and such Dispute shall be decided by a court of competent
         jurisdiction within the courts listed for jurisdiction above, and the
         Parties agree to submit to the personal jurisdiction of that court.
-        <bdt className="statement-end-if-in-editor" />
+        <div className="statement-end-if-in-editor" />
       </div>
       <div
         className="MsoNormal"
         style={{ lineHeight: "1.5", textAlign: "left" }}
       >
-        <bdt className="statement-end-if-in-editor">
-          <bdt className="statement-end-if-in-editor" />
-        </bdt>
+        <div className="statement-end-if-in-editor">
+          <div className="statement-end-if-in-editor" />
+        </div>
       </div>
       <div
         className="MsoNormal"
@@ -6509,9 +6431,7 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           THE SERVICES ARE PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU
@@ -6526,9 +6446,9 @@ const TermsContent: React.FC = () => {
           ASSUME NO LIABILITY OR RESPONSIBILITY FOR ANY (1) ERRORS, MISTAKES, OR
           INACCURACIES OF CONTENT AND MATERIALS, (2) PERSONAL INJURY OR PROPERTY
           DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND
-          USE OF THE SERVICES, (3) ANY <bdt className="block-component" />
+          USE OF THE SERVICES, (3) ANY <div className="block-component" />
           UNAUTHORIZED
-          <bdt className="statement-end-if-in-editor" /> ACCESS TO OR USE OF OUR
+          <div className="statement-end-if-in-editor" /> ACCESS TO OR USE OF OUR
           SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR
           FINANCIAL INFORMATION STORED THEREIN, (4) ANY INTERRUPTION OR
           CESSATION OF TRANSMISSION TO OR FROM THE SERVICES, (5) ANY BUGS,
@@ -6545,9 +6465,9 @@ const TermsContent: React.FC = () => {
           TRANSACTION BETWEEN YOU AND ANY THIRD-PARTY PROVIDERS OF PRODUCTS OR
           SERVICES. AS WITH THE PURCHASE OF A PRODUCT OR SERVICE THROUGH ANY
           MEDIUM OR IN ANY ENVIRONMENT, YOU SHOULD USE YOUR BEST{" "}
-          <bdt className="block-component" />
+          <div className="block-component" />
           JUDGMENT
-          <bdt className="statement-end-if-in-editor" /> AND EXERCISE CAUTION
+          <div className="statement-end-if-in-editor" /> AND EXERCISE CAUTION
           WHERE APPROPRIATE.
         </span>
       </div>
@@ -6612,9 +6532,7 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           <span data-custom-class="body_text">
@@ -6625,49 +6543,49 @@ const TermsContent: React.FC = () => {
             YOUR USE OF THE SERVICES, EVEN IF WE HAVE BEEN ADVISED OF THE
             POSSIBILITY OF SUCH DAMAGES.
           </span>{" "}
-          <bdt
+          <div
             className="block-container if"
             data-type="if"
             id="3c3071ce-c603-4812-b8ca-ac40b91b9943"
           >
             <span data-custom-class="body_text">
-              <bdt data-type="conditional-block">
-                <bdt
+              <div data-type="conditional-block">
+                <div
                   className="block-component"
                   data-record-question-key="limitations_liability_option"
                   data-type="statement"
                 />
-                <bdt data-type="body">
+                <div data-type="body">
                   NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED HEREIN, OUR
                   LIABILITY TO YOU FOR ANY CAUSE WHATSOEVER AND REGARDLESS OF
                   THE FORM OF THE ACTION, WILL AT ALL TIMES BE LIMITED TO{" "}
-                  <bdt
+                  <div
                     className="block-container if"
                     data-type="if"
                     id="73189d93-ed3a-d597-3efc-15956fa8e04e"
                   >
-                    <bdt data-type="conditional-block">
-                      <bdt
+                    <div data-type="conditional-block">
+                      <div
                         className="block-component"
                         data-record-question-key="limitations_liability_option"
                         data-type="statement"
                       />
-                      <bdt data-type="body">
+                      <div data-type="body">
                         THE AMOUNT PAID, IF ANY, BY YOU TO US
-                        <bdt
+                        <div
                           className="block-container if"
                           data-type="if"
                           id="19e172cb-4ccf-1904-7c06-4251800ba748"
                         >
-                          <bdt data-type="conditional-block">
-                            <bdt
+                          <div data-type="conditional-block">
+                            <div
                               className="block-component"
                               data-record-question-key="limilation_liability_time_option"
                               data-type="statement"
                             >
                               &nbsp;
-                            </bdt>
-                            <bdt data-type="body">
+                            </div>
+                            <div data-type="body">
                               <span
                                 style={{
                                   fontSize: "11pt",
@@ -6676,39 +6594,39 @@ const TermsContent: React.FC = () => {
                                 }}
                               >
                                 DURING THE{" "}
-                                <bdt
+                                <div
                                   className="block-container question question-in-editor"
                                   data-id="5dd68d46-ed6f-61c7-cd66-6b3f424b6bdd"
                                   data-type="question"
                                 >
                                   six (6)
-                                </bdt>{" "}
+                                </div>{" "}
                                 mONTH PERIOD PRIOR TO ANY CAUSE OF ACTION
                                 ARISING
                               </span>
-                            </bdt>
-                          </bdt>
-                          <bdt
+                            </div>
+                          </div>
+                          <div
                             className="statement-end-if-in-editor"
                             data-type="close"
                           />
-                        </bdt>
-                      </bdt>
-                    </bdt>
-                    <bdt data-type="conditional-block">
-                      <bdt
+                        </div>
+                      </div>
+                    </div>
+                    <div data-type="conditional-block">
+                      <div
                         className="block-component"
                         data-record-question-key="limitations_liability_option"
                         data-type="statement"
                       >
                         .
-                      </bdt>
-                    </bdt>
-                  </bdt>
-                </bdt>
-              </bdt>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </span>
-          </bdt>
+          </div>
           &nbsp;
         </span>
         <span data-custom-class="body_text">
@@ -6718,9 +6636,9 @@ const TermsContent: React.FC = () => {
           DISCLAIMERS OR LIMITATIONS MAY NOT APPLY TO YOU, AND YOU MAY HAVE
           ADDITIONAL RIGHTS.
         </span>
-        <bdt className="statement-end-if-in-editor" data-type="close">
+        <div className="statement-end-if-in-editor" data-type="close">
           <span data-custom-class="body_text" />
-        </bdt>
+        </div>
       </div>
       <div
         className="MsoNormal"
@@ -6784,9 +6702,7 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           You agree to defend, indemnify, and hold us harmless, including our
@@ -6794,21 +6710,21 @@ const TermsContent: React.FC = () => {
           partners, and employees, from and against any loss, damage, liability,
           claim, or demand, including reasonable attorneys’ fees and expenses,
           made by any third party due to or arising out of:{" "}
-          <bdt
+          <div
             className="block-container if"
             data-type="if"
             id="475fffa5-05ca-def8-ac88-f426b238903c"
           >
-            <bdt data-type="conditional-block">
-              <bdt
+            <div data-type="conditional-block">
+              <div
                 className="block-component"
                 data-record-question-key="user_post_content_option"
                 data-type="statement"
               />
-              <bdt data-type="body">(1) your Contributions;&nbsp;</bdt>
-            </bdt>
-            <bdt className="statement-end-if-in-editor" data-type="close" />
-          </bdt>
+              <div data-type="body">(1) your Contributions;&nbsp;</div>
+            </div>
+            <div className="statement-end-if-in-editor" data-type="close" />
+          </div>
           (<span style={{ fontSize: "14.6667px" }}>2</span>) use of the
           Services; (<span style={{ fontSize: "14.6667px" }}>3</span>) breach of
           these Legal Terms; (<span style={{ fontSize: "14.6667px" }}>4</span>)
@@ -6820,14 +6736,14 @@ const TermsContent: React.FC = () => {
           act toward any other user of the Services with whom you connected via
           the Services. Notwithstanding the foregoing, we reserve the right, at
           your expense, to assume the exclusive{" "}
-          <bdt className="block-component" />
+          <div className="block-component" />
           defense
-          <bdt className="statement-end-if-in-editor" /> and control of any
+          <div className="statement-end-if-in-editor" /> and control of any
           matter for which you are required to indemnify us, and you agree to
           cooperate, at your expense, with our{" "}
-          <bdt className="block-component" />
+          <div className="block-component" />
           defense
-          <bdt className="statement-end-if-in-editor" /> of such claims. We will
+          <div className="statement-end-if-in-editor" /> of such claims. We will
           use reasonable efforts to notify you of any such claim, action, or
           proceeding which is subject to this indemnification upon becoming
           aware of it.
@@ -6895,9 +6811,7 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           We will maintain certain data that you transmit to the Services for
@@ -6973,9 +6887,7 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           Visiting the Services, sending us emails, and completing online forms
@@ -7004,9 +6916,9 @@ const TermsContent: React.FC = () => {
         className="MsoNormal"
         style={{ lineHeight: "1.5", textAlign: "left" }}
       >
-        <bdt className="block-component">
+        <div className="block-component">
           <span style={{ fontSize: 15 }} />
-        </bdt>
+        </div>
       </div>
       <div
         className="MsoNormal"
@@ -7023,7 +6935,7 @@ const TermsContent: React.FC = () => {
         style={{ lineHeight: "1.5", textAlign: "left" }}
       >
         <span style={{ fontSize: 15 }}>
-          <bdt className="block-component" />
+          <div className="block-component" />
         </span>
       </div>
       <div
@@ -7055,13 +6967,13 @@ const TermsContent: React.FC = () => {
         style={{ lineHeight: "1.5", textAlign: "left" }}
       >
         <span style={{ fontSize: 15 }}>
-          <bdt className="block-component" />
+          <div className="block-component" />
           <span style={{ fontSize: 15 }}>
             If at any time you wish to stop receiving SMS messages from us,
             simply reply to the text with "STOP.” You may receive an SMS message
             confirming your opt out.
           </span>
-          <bdt className="else-block" />
+          <div className="else-block" />
         </span>
       </div>
       <div
@@ -7125,8 +7037,8 @@ const TermsContent: React.FC = () => {
         <span style={{ fontSize: 15 }}>
           If you have any questions or need assistance regarding our SMS
           communications, please email us at{" "}
-          <bdt className="question">support@lendflow.sucks</bdt>
-          <bdt className="block-component" />.<br />
+          <div className="question">support@lendflow.sucks</div>
+          <div className="block-component" />.<br />
         </span>
       </div>
       <div
@@ -7140,9 +7052,9 @@ const TermsContent: React.FC = () => {
         style={{ lineHeight: "1.5", textAlign: "left" }}
       >
         <span style={{ fontSize: 15 }}>
-          <bdt className="statement-end-if-in-editor" />
+          <div className="statement-end-if-in-editor" />
         </span>
-        <bdt className="block-component" />
+        <div className="block-component" />
       </div>
       <div
         className="MsoNormal"
@@ -7200,9 +7112,7 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           If any complaint with us is not satisfactorily resolved, you can
@@ -7222,7 +7132,7 @@ const TermsContent: React.FC = () => {
         className="MsoNormal"
         style={{ lineHeight: "1.5", textAlign: "left" }}
       >
-        <bdt className="statement-end-if-in-editor" />
+        <div className="statement-end-if-in-editor" />
       </div>
       <div
         className="MsoNormal"
@@ -7280,9 +7190,7 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           These Legal Terms and any policies or operating rules posted by us on
@@ -7302,9 +7210,9 @@ const TermsContent: React.FC = () => {
           relationship created between you and us as a result of these Legal
           Terms or use of the Services. You agree that these Legal Terms will
           not be construed against us by virtue of having drafted them. You
-          hereby waive any and all <bdt className="block-component" />
+          hereby waive any and all <div className="block-component" />
           defenses
-          <bdt className="statement-end-if-in-editor" /> you may have based on
+          <div className="statement-end-if-in-editor" /> you may have based on
           the electronic form of these Legal Terms and the lack of signing by
           the parties hereto to execute these Legal Terms.
         </span>
@@ -7313,9 +7221,9 @@ const TermsContent: React.FC = () => {
         className="MsoNormal"
         style={{ lineHeight: "1.5", textAlign: "left" }}
       >
-        <bdt className="block-component">
+        <div className="block-component">
           <span style={{ fontSize: 15 }} />
-        </bdt>
+        </div>
       </div>
       <div
         className="MsoNormal"
@@ -7379,9 +7287,7 @@ const TermsContent: React.FC = () => {
             fontSize: "11.0pt",
             lineHeight: "115%",
             fontFamily: "Arial",
-            color: "#595959",
-            msoThemecolor: "text1",
-            msoThemetint: 166
+            color: "#595959"
           }}
         >
           In order to resolve a complaint regarding the Services or to receive
@@ -7402,11 +7308,11 @@ const TermsContent: React.FC = () => {
       >
         <span style={{ fontSize: 15 }}>
           <span style={{ color: "rgb(89, 89, 89)" }}>
-            <bdt className="question">
+            <div className="question">
               <strong>Lendflow Sucks LLC</strong>
-            </bdt>
+            </div>
             <strong>
-              <bdt className="block-component" />
+              <div className="block-component" />
             </strong>
           </span>
         </span>
@@ -7424,11 +7330,11 @@ const TermsContent: React.FC = () => {
               color: "rgb(89, 89, 89)"
             }}
           >
-            <bdt className="question">
+            <div className="question">
               <strong>
-                <bdt className="question">1111B S Governors Ave</bdt>
+                <div className="question">1111B S Governors Ave</div>
               </strong>
-            </bdt>
+            </div>
             <span
               style={{
                 lineHeight: "115%",
@@ -7436,9 +7342,9 @@ const TermsContent: React.FC = () => {
                 color: "rgb(89, 89, 89)"
               }}
             >
-              <bdt className="statement-end-if-in-editor" />
+              <div className="statement-end-if-in-editor" />
             </span>
-            <bdt className="block-component" />
+            <div className="block-component" />
           </span>
         </span>
       </div>
@@ -7455,9 +7361,9 @@ const TermsContent: React.FC = () => {
               color: "rgb(89, 89, 89)"
             }}
           >
-            <bdt className="question">
+            <div className="question">
               <strong>6469</strong>
-            </bdt>
+            </div>
             <span
               style={{
                 lineHeight: "115%",
@@ -7472,7 +7378,7 @@ const TermsContent: React.FC = () => {
                   color: "rgb(89, 89, 89)"
                 }}
               >
-                <bdt className="statement-end-if-in-editor" />
+                <div className="statement-end-if-in-editor" />
               </span>
             </span>
           </span>
@@ -7486,27 +7392,27 @@ const TermsContent: React.FC = () => {
         <span style={{ fontSize: 15 }}>
           <strong>
             <span style={{ color: "rgb(89, 89, 89)" }}>
-              <bdt className="question">
-                <bdt className="block-component" />
-                <bdt className="question">Dover</bdt>
-                <bdt className="statement-end-if-in-editor" />
-              </bdt>
-              <bdt className="block-component" />
-              <bdt className="block-component" />,{" "}
-              <bdt className="question">DE</bdt>
-              <bdt className="statement-end-if-in-editor" />
-              <bdt className="block-component" />
-              <bdt className="block-component" />{" "}
-              <bdt className="question">19904</bdt>
-              <bdt className="statement-end-if-in-editor" />
+              <div className="question">
+                <div className="block-component" />
+                <div className="question">Dover</div>
+                <div className="statement-end-if-in-editor" />
+              </div>
+              <div className="block-component" />
+              <div className="block-component" />,{" "}
+              <div className="question">DE</div>
+              <div className="statement-end-if-in-editor" />
+              <div className="block-component" />
+              <div className="block-component" />{" "}
+              <div className="question">19904</div>
+              <div className="statement-end-if-in-editor" />
             </span>
           </strong>
           <strong>
             <span style={{ color: "rgb(89, 89, 89)" }}>
-              <bdt className="block-component" />
+              <div className="block-component" />
             </span>
-            <bdt className="block-component" />
-            <bdt className="block-component" />
+            <div className="block-component" />
+            <div className="block-component" />
           </strong>
         </span>
       </div>
@@ -7516,32 +7422,32 @@ const TermsContent: React.FC = () => {
         style={{ lineHeight: "1.5", textAlign: "left" }}
       >
         <span style={{ fontSize: 15 }}>
-          <bdt className="question">
+          <div className="question">
             <strong>United States</strong>
-          </bdt>
+          </div>
           <strong>
-            <bdt className="statement-end-if-in-editor">
+            <div className="statement-end-if-in-editor">
               <span style={{ color: "rgb(89, 89, 89)" }}>
                 <strong>
                   <span style={{ fontSize: 15 }}>
-                    <bdt className="statement-end-if-in-editor">
+                    <div className="statement-end-if-in-editor">
                       <span style={{ color: "rgb(89, 89, 89)" }}>
                         <strong>
                           <span style={{ fontSize: 15 }}>
-                            <bdt className="statement-end-if-in-editor">
-                              <bdt className="block-component" />
-                            </bdt>
+                            <div className="statement-end-if-in-editor">
+                              <div className="block-component" />
+                            </div>
                           </span>
                         </strong>
-                        <bdt className="statement-end-if-in-editor">
+                        <div className="statement-end-if-in-editor">
                           <strong />
-                        </bdt>
+                        </div>
                       </span>
-                    </bdt>
+                    </div>
                   </span>
                 </strong>
               </span>
-            </bdt>
+            </div>
           </strong>
         </span>
       </div>
@@ -7558,13 +7464,11 @@ const TermsContent: React.FC = () => {
                   fontSize: "11.0pt",
                   lineHeight: "115%",
                   fontFamily: "Arial",
-                  color: "#595959",
-                  msoThemecolor: "text1",
-                  msoThemetint: 166
+                  color: "#595959"
                 }}
               >
                 <strong>
-                  <bdt className="block-component" />
+                  <div className="block-component" />
                 </strong>
               </span>
               &nbsp;
@@ -7584,13 +7488,11 @@ const TermsContent: React.FC = () => {
                 fontSize: "11.0pt",
                 lineHeight: "115%",
                 fontFamily: "Arial",
-                color: "#595959",
-                msoThemecolor: "text1",
-                msoThemetint: 166
+                color: "#595959"
               }}
             >
               <strong>
-                <bdt className="block-component" />
+                <div className="block-component" />
               </strong>
             </span>
           </strong>
@@ -7607,17 +7509,15 @@ const TermsContent: React.FC = () => {
               fontSize: "11.0pt",
               lineHeight: "115%",
               fontFamily: "Arial",
-              color: "#595959",
-              msoThemecolor: "text1",
-              msoThemetint: 166
+              color: "#595959"
             }}
           >
             <strong>
-              <bdt className="question">
-                <bdt className="block-component" />
-                <bdt className="question">support@lendflow.sucks</bdt>
-                <bdt className="statement-end-if-in-editor" />
-              </bdt>
+              <div className="question">
+                <div className="block-component" />
+                <div className="question">support@lendflow.sucks</div>
+                <div className="statement-end-if-in-editor" />
+              </div>
             </strong>
           </span>
         </strong>
