@@ -24,7 +24,7 @@ interface MenuItem {
     return (
       <div className="flex h-screen">
         <div className="bg-gray-200 w-1/5 overflow-y-auto">
-          <h2 className="py-4 px-6 text-xl font-bold">Fixed Menu</h2>
+          <h2 className="py-4 px-6 text-xl font-bold">.</h2>
           <ul>
             {initialMenuItems.map((menuItem, index) => (
               <li key={index} className="hover:bg-gray-300 transition duration-300 transform hover:translate-x-1">

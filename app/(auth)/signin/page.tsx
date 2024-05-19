@@ -1,9 +1,9 @@
+import Link from 'next/link'
+
 export const metadata = {
   title: 'Sign In - Lendflow Sucks',
   description: 'Page description',
 }
-
-import Link from 'next/link'
 
 export default function SignIn() {
   return (
@@ -46,7 +46,9 @@ export default function SignIn() {
               </div>
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
-                  <button className="btn text-white bg-blue-600 hover:bg-blue-700 w-full">Sign in</button>
+                  <Link href="/dashboard" className="btn text-white bg-blue-600 hover:bg-blue-700 w-full text-center">
+                    Sign in
+                  </Link>
                 </div>
               </div>
             </form>

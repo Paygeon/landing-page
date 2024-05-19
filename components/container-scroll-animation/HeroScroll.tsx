@@ -19,7 +19,7 @@ export function HeroScrollDemo() {
         }
       >
         <Image
-          src={`https://uploads-ssl.webflow.com/611fd2a3d605e3b78a5cc647/66474fa2fb954217c0e580f7_Offers.png`}
+          src={`https://vashong.github.io/widgets/images/Bankrate%20(1).svg`}
           alt="hero"
           height={720}
           width={1400}

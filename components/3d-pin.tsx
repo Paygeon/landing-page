@@ -21,7 +21,7 @@ export function AnimatedPinDemo() {
           </div>
           <div className="relative">
            <Image
-             src="https://images.ctfassets.net/ns4x1kunro08/UfI1QczAgmslHfpkXBotM/dd0fac612c728a30c0677138ee00950a/AC_Mastercard.png"
+             src="https://creditcards.chase.com/K-Ink_ECMv3/images/chase_ink_biz_premier_card_2x.png"
              width={500}
              height={462}
              alt=""

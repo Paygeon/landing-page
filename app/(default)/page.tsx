@@ -10,6 +10,7 @@ import Testimonials from '@/components/testimonials'
 import Newsletter from '@/components/newsletter'
 import { HeroScrollDemo } from '@/components/container-scroll-animation/HeroScroll'
 import Ready from '@/components/animations/are-you-ready-lottie/are-you-ready-lottie'
+import StoryIframe from '@/components/animations/iframe/StoryIframe'
 
 
 export default function Home() {
@@ -18,7 +19,6 @@ export default function Home() {
      
       <Hero />
       <HeroScrollDemo />
-      <Ready />
       <Features />
       <FeaturesBlocks />
       <Testimonials />

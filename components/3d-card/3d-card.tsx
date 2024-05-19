@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
 import Link from "next/link";
+import CameraLottie from "../animations/camera-lottie/CameraLottie";
 
 export function ThreeDCardDemo() {
   return (
@@ -13,23 +14,23 @@ export function ThreeDCardDemo() {
           translateZ="50"
           className="text-xl font-bold text-neutral-600 dark:text-white"
         >
-          Aesthetics Business MasterCard®
+          Upload an Invoice
         </CardItem>
         <CardItem
           as="p"
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
-          Up to 5% back on the most relevant expenses for medical aesthetics professionals.†
+          Enable your clients to pay bills using crypto
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
-          <Image
-            src="https://vashong.github.io/widgets/images/Embedded%20Code.svg"
-            height="1000"
-            width="1000"
-            className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-            alt="thumbnail"
-          />
+        <div className="flex justify-center items-center h-175 w-175 bg-transparent">
+         <img
+          src="https://vashong.github.io/widgets/images/Animation%20-%201716056213129.gif"
+          alt="Animation"
+          style={{ width: '175px', height: '175px' }}
+         />
+        </div>
         </CardItem>
         <div className="flex justify-between items-center mt-20">
           <CardItem
