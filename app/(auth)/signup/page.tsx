@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Sign Up - Simple',
+  title: 'Sign Up - Lendflow Sucks',
   description: 'Page description',
 }
 
@@ -13,7 +13,7 @@ export default function SignUp() {
 
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h1 className="h1">Welcome. We exist to make entrepreneurism easier.</h1>
+            <h1 className="h1">Welcome. Start your fintech business in 5 seconds. Free.</h1>
           </div>
 
           {/* Form */}
@@ -43,7 +43,7 @@ export default function SignUp() {
                 </div>
               </div>
               <div className="text-sm text-gray-500 text-center mt-3">
-                By creating an account, you agree to the <a className="underline" href="#0">terms & conditions</a>, and our <a className="underline" href="#0">privacy policy</a>.
+                By creating an account, you agree to the <a className="underline" href="/legal">terms & conditions</a>, and our <a className="underline" href="/legal">privacy policy</a>.
               </div>
             </form>
             <div className="flex items-center my-6">
@@ -74,7 +74,7 @@ export default function SignUp() {
               </div>
             </form>
             <div className="text-gray-600 text-center mt-6">
-              Already using Simple? <Link href="/signin" className="text-blue-600 hover:underline transition duration-150 ease-in-out">Sign in</Link>
+              Already using Lendflow Sucks? <Link href="/signin" className="text-blue-600 hover:underline transition duration-150 ease-in-out">Sign in</Link>
             </div>
           </div>
 

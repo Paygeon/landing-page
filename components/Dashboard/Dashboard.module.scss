@@ -1,0 +1,127 @@
+/* Dashboard.module.scss */
+
+.root {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow-y: auto; /* Enable vertical scrolling */
+  background-color: #313131;
+}
+
+.offerCard {
+  position: absolute;
+  left: 864px;
+  top: 991px;
+}
+
+.icon, .icon2, .icon3, .icon4 {
+  width: 100%;
+  height: 100%;
+}
+
+.rectangle {
+  position: absolute;
+  left: 0;
+  top: 62px;
+  width: 1318px;
+  height: 1206px;
+  overflow: visible;
+}
+
+.rectangle2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1318px;
+  height: 60px;
+  background-color: #2b2b2b;
+  box-shadow: 0px 0px 0px 0px #e0e0e0;
+}
+
+.iMAGE {
+  position: absolute;
+  left: 24px;
+  top: 14px;
+  width: 262px;
+  height: 32px;
+}
+
+.rectangle3, .rectangle4, .rectangle5 {
+  position: absolute;
+  border-radius: 6px;
+}
+
+.rectangle3 {
+  left: 1196px;
+  top: 10px;
+  width: 57px;
+  height: 40px;
+}
+
+.rectangle4 {
+  left: 1196px;
+  top: 10px;
+  width: 57px;
+  height: 40px;
+}
+
+.rectangle5 {
+  left: 1262px;
+  top: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.iMAGE2 {
+  position: absolute;
+  left: 1262px;
+  top: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.iMAGE3 {
+  position: absolute;
+  left: 0;
+  top: 55px;
+  width: 1318px;
+  height: 337px;
+}
+
+.goodEvening, .vashonGonzales {
+  color: #fff;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 72px;
+  flex-direction: column;
+}
+
+.goodEvening {
+  top: 153px;
+  font-size: 16px;
+  line-height: 22.8571px;
+  width: 105px;
+  height: min-content;
+}
+
+.vashonGonzales {
+  top: 176px;
+  font-size: 33px;
+  line-height: 48.5714px;
+  width: 260px;
+  height: min-content;
+}
+
+.videoBanner {
+  width: 100vw; /* Set width to 100% of viewport width */
+  height: 370px; /* Ensure aspect ratio is maintained */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  object-fit: cover; /* Ensure the video covers the entire container */
+}

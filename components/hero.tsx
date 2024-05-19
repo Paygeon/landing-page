@@ -2,6 +2,7 @@ import VideoThumb from '@/public/images/hero-image.png'
 import ModalVideo from '@/components/modal-video'
 import DiscordButton from './discord-button/DiscordButton'
 import GithubButton from './github-button/github-button'
+import StoryIframe from './animations/iframe/StoryIframe'
 
 export default function Hero() {
   return (
@@ -46,14 +47,9 @@ export default function Hero() {
           </div>
 
           {/* Hero image */}
-          <ModalVideo
-            thumb={VideoThumb}
-            thumbWidth={768}
-            thumbHeight={432}
-            thumbAlt="Modal video thumbnail"
-            video="/videos/video.mp4"
-            videoWidth={1920}
-            videoHeight={1080} />
+        <div style={{ width: '100vw', height: '100vh' }}>
+         <StoryIframe />
+        </div>
 
         </div>
 

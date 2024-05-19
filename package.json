@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "deploy": "npm run build && gh-pages -d out"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
@@ -14,27 +16,29 @@
     "@react-three/fiber": "^8.16.6",
     "@tabler/icons-react": "^3.3.0",
     "@types/node": "^20.10.4",
-    "@types/react": "^18.2.42",
-    "@types/react-dom": "^18.2.17",
     "aos": "^3.0.0-beta.6",
     "clsx": "^2.1.1",
-    "contentful": "^10.10.0",
     "framer-motion": "^11.1.9",
-    "headcodecms": "^0.0.2",
     "next": "^14.1.1",
+    "lottie-web": "^5.12.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-spring-bottom-sheet": "^3.4.1",
     "tailwind-merge": "^2.3.0",
     "three": "^0.164.1",
-    "three-globe": "^2.31.0",
-    "typescript": "^5.3.3"
+    "three-globe": "^2.31.0"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.7",
     "@types/aos": "^3.0.7",
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.16",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.32",
-    "tailwindcss": "^3.3.6"
+    "sass": "^1.77.2",
+    "tailwindcss": "^3.3.6",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
   }
 }
