@@ -36,7 +36,7 @@ export default function Features() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Features</h1>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <p className="text-xl text-gray-600">We bring the product, you bring the clients. You bring the feedback, we bring the updates. Let's change the world!</p>
           </div>
 
           {/* Section content */}
@@ -45,8 +45,8 @@ export default function Features() {
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">Powerful suite of tools</h3>
-                <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                <h3 className="h3 mb-3">Powerful suite of widgets</h3>
+                <p className="text-xl text-gray-600">Add new products and services to your inventory as quickly as embedding a few lines of code (no APIs needed).</p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
@@ -57,15 +57,15 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Credit Card Marketplace</div>
-                    <div className="text-gray-600">Like Credit Karma.</div>
+                    <div className="text-gray-600">Like Bankrate, advertise major credit card brands in a marketplace to increase credibility.</div>
                   </div>
-                  <div>
+
                   <img
                    src="https://vashong.github.io/widgets/images/Bankrate-logo.png"
                    className="w-15 h-5 fill-current"
                    alt="Credit Karma Tax Icon"
                   />
-                  </div>
+              
                   </a>
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
@@ -74,7 +74,7 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Loan Application Widget</div>
-                    <div className="text-gray-600">Like Lendio.</div>
+                    <div className="text-gray-600">Like Lendio, be a source of capital for your users and increase client stickiness.</div>
                   </div>
                   <img
                    src="https://vashong.github.io/widgets/images/Lendio-1024x263.png"
@@ -89,14 +89,14 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Cryptocurrency Billpay</div>
-                    <div className="text-gray-600">Like Bit Pay.</div>
+                    <div className="text-gray-600">Like Bit Pay, give your users more ways to pay using their mobile phones.</div>
                   </div>
-                  <div> 
+               
                     <img src="https://vashong.github.io/widgets/images/bitpay.png" 
-                    className="w-50 h-20 fill-current" 
+                    className="w-55 h-20 fill-current" 
                     alt="BitPay Icon" 
                     /> 
-                  </div>
+                
                 </a>
               </div>
             </div>

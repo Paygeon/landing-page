@@ -2,6 +2,8 @@ landing-page/
     .gitignore
     CHANGELOG.md
     README.md
+    codebase_structure.txt
+    generate-tree.py
     index.html
     next-env.d.ts
     next.config.js
@@ -13,12 +15,14 @@ landing-page/
     tsconfig.json
     tsconfig.node.json
     vite.config.ts
-    generate-tree.py
-    codebase_structure.txt
+    .env.local
+    .github/
+        dependabot.yml
     .vscode/
         settings.json
     app/
         layout.tsx
+        page.tsx
         (auth)/
             layout.tsx
             dashboard/
@@ -132,10 +136,6 @@ landing-page/
             mobile-menu.tsx
             privacy-policy.tsx
             terms-conditions.tsx
-        utils/
-            accordion.tsx
-            cn.ts
-            dropdown.tsx
     public/
         favicon.ico
         robots.txt
@@ -164,3 +164,11 @@ landing-page/
     types/
         custom.d.ts
         html-attributes.d.ts
+    utils/
+        accordion.tsx
+        cn.ts
+        dropdown.tsx
+        supabase/
+            server.ts
+            client.ts
+            middleware.ts
