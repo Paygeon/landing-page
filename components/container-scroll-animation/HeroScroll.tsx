@@ -19,7 +19,7 @@ export function HeroScrollDemo() {
         }
       >
         <Image
-          src={`https://vashong.github.io/widgets/images/Bankrate%20(1).svg`}
+          src={`https://vashong.github.io/widgets/images/Screenshot%20Capture%20-%202024-05-23%20-%2023-21-49.png`}
           alt="hero"
           height={720}
           width={1400}

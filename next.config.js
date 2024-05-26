@@ -1,6 +1,4 @@
 const nextConfig = {
-  basePath: '/landing-page', // Replace 'repository-name' with your GitHub repository name
-  assetPrefix: '/landing-page/', // Replace 'repository-name' with your GitHub repository name
   images: {
     remotePatterns: [
       {

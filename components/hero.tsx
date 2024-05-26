@@ -2,7 +2,7 @@ import VideoThumb from '@/public/images/hero-image.png'
 import ModalVideo from '@/components/modal-video'
 import DiscordButton from './discord-button/DiscordButton'
 import GithubButton from './github-button/github-button'
-import StoryIframe from './animations/iframe/StoryIframe'
+import InstallInstructions from './ui/InstallInstructions'
 
 export default function Hero() {
   return (
@@ -34,7 +34,8 @@ export default function Hero() {
           <div className="text-center pb-12 md:pb-16">
             <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Embed Financial Services With <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">One Line of Code</span></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Easily embed credit cards, loans, and payments for free.</p>
+              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Easily embed credit cards, loans, and customer support for free.</p>
+              <InstallInstructions />
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
                   <DiscordButton url="https://discord.gg/Pnurz9mTas" />
@@ -47,7 +48,8 @@ export default function Hero() {
           </div>
 
           {/* Hero image */}
-
+        <div style={{ width: '100vw', height: '100vh' }}>
+        </div>
 
         </div>
 
