@@ -3,7 +3,11 @@ import React from "react";
 import { ContainerScroll } from "../ui/container-scroll-animation";
 import Image from "next/image";
 
-export function HeroScrollDemo() {
+interface HeroScrollDemoProps {
+  description: string;
+}
+
+export const HeroScrollDemo: React.FC<HeroScrollDemoProps> = ({ description }) => {
   return (
     <div className="flex flex-col overflow-hidden">
       <ContainerScroll
@@ -18,6 +22,7 @@ export function HeroScrollDemo() {
           </>
         }
       >
+        <p className="text-lg text-white mb-4">{description}</p>
         <Image
           src={`https://vashong.github.io/widgets/images/Screenshot%20Capture%20-%202024-05-23%20-%2023-21-49.png`}
           alt="hero"
@@ -27,9 +32,11 @@ export function HeroScrollDemo() {
           draggable={false}
         />
       </ContainerScroll>
+      <p className="text-lg text-white mb-4">{description}</p>
     </div>
   );
 }
+
 
 export const users = [
   {

@@ -1,7 +1,8 @@
 {
-  "name": "simple-next",
+  "name": "landing-page",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://paygeon.github.io/landing-page",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -27,8 +27,8 @@ export default function Testimonials() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h2 className="h2 mb-4">Roadmap</h2>
-            <p className="text-xl text-gray-600" data-aos="zoom-y-out">We have big plans for the future</p>
+            <h2 className="h2 mb-4">Do you even dev?</h2>
+            <p className="text-xl text-gray-600" data-aos="zoom-y-out">You can build it yourself, or we can build it for you for only $̶5̶0̶0̶  $75 (Limited Time...)</p>
           </div>
 
           {/* Items */}

@@ -13,7 +13,7 @@ const InstallInstructions: React.FC = () => {
   };
 
   return (
-    <div className="border border-gray-300 rounded-lg p-6 mb-6 w-3/4 mx-auto bg-black">
+    <div className="border border-gray-300 rounded-lg p-6 mb-6 w-3/6 mx-auto bg-black">
       <div className="flex justify-between text-sm">
         <h5 className="text-sm text-gray-500 mb-1 pb-1 flex items-center">
           <svg
@@ -30,7 +30,7 @@ const InstallInstructions: React.FC = () => {
         </h5>
         <span>
           <a className="text-blue-600 hover:underline" href="https://docs.github.com/articles/configuring-npm-for-use-with-github-package-registry/">
-            Learn more about npm packages
+            Learn more
           </a>
         </span>
       </div>

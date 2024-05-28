@@ -9,7 +9,9 @@ import FeaturesBlocks from '@/components/features-blocks'
 import Testimonials from '@/components/testimonials'
 import Newsletter from '@/components/newsletter'
 import { HeroScrollDemo } from '@/components/container-scroll-animation/HeroScroll'
-import Ready from '@/components/animations/are-you-ready-lottie/are-you-ready-lottie'
+import Section from '@/components/Section'
+import Graph from '@/components/animations/graph/Graph'
+import { LampDemo } from '@/components/lamp/lamp'
 
 
 export default function Home() {
@@ -17,9 +19,16 @@ export default function Home() {
     <>
      
       <Hero />
-      <HeroScrollDemo />
+      <HeroScrollDemo description={'https://loan.aestheticscard.com'} />
       <Features />
       <FeaturesBlocks />
+      <Section
+          component={Graph}
+          title="Increase Revenues"
+          description="The only open source project with rev-share built in:"
+          listItems={["Interchange", "Recurring", "Origination Fees"]}
+      />
+      <LampDemo description={'Integrations <br /> built in'} />
       <Testimonials />
       <Newsletter />
   

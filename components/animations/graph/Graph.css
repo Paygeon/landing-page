@@ -1,0 +1,16 @@
+.graph {
+    width: auto;
+    height: auto;
+}
+
+.grow {
+    transition: transform 0.3s ease;
+    fill: url(#animatedGradient);
+}
+
+.grow rect {
+    transition: transform 0.3s ease;
+    fill: url(#animatedGradient);
+}
+
+

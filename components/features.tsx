@@ -138,7 +138,7 @@ export default function Features() {
                     unmount={false}                     
                   >
                     <div className="relative inline-flex flex-col">
-                      <EvervaultCardDemo />
+                      <img src="https://vashong.github.io/widgets/images/650922c18bc322ab5b46780c_Group%2050%20(1).svg"/>
                     </div>
                   </Transition>
                   {/* Item 3 */}
