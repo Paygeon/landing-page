@@ -56,12 +56,12 @@ export default function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Credit Card Marketplace</div>
-                    <div className="text-gray-600">Like Bankrate, advertise major credit card brands in a marketplace to increase credibility.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Corporate Cards</div>
+                    <div className="text-gray-600">Like Brex, offer your own branded corporate credit and debit cards and earn up to 1% recurring revenue.</div>
                   </div>
 
                   <img
-                   src="https://vashong.github.io/widgets/images/Bankrate-logo.png"
+                   src="https://d2w9rnfcy7mm78.cloudfront.net/15958249/original_edc5af5023d73d3e416936fbd040f4bf.gif?1649343259?bc=0"
                    className="w-15 h-5 fill-current"
                    alt="Credit Karma Tax Icon"
                   />
