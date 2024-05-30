@@ -12,16 +12,16 @@ export function AnimatedPinDemo() {
       >
         <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
           <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-            Chase Business Credit Card
+            Corporate Credit Card Offer
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
             <span className="text-slate-500 ">
-              Apply at Chase's secure website.
+              Apply at Corpay's secure website.
             </span>
           </div>
           <div className="relative">
            <Image
-             src="https://creditcards.chase.com/K-Ink_ECMv3/images/chase_ink_biz_premier_card_2x.png"
+             src="https://vashong.github.io/widgets/images/Company=HDFC.svg"
              width={500}
              height={462}
              alt=""

@@ -61,8 +61,8 @@ export default function Features() {
                   </div>
 
                   <img
-                   src="https://d2w9rnfcy7mm78.cloudfront.net/15958249/original_edc5af5023d73d3e416936fbd040f4bf.gif?1649343259?bc=0"
-                   className="w-15 h-5 fill-current"
+                   src="https://vashong.github.io/widgets/images/R-ezgif.com-resize.gif"
+                   className="w-15 h-5 fill-current rounded-full w-50 h-50"
                    alt="Credit Karma Tax Icon"
                   />
               

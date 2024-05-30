@@ -21,17 +21,18 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"] // Adjust this if needed to match your directory structure
+      "@/*": ["./*"]
     }
   },
   "include": [
     "next-env.d.ts",
-    "src/**/*", // Ensure 'src' is included if it’s your source directory
+    "src",
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "types/*.d.ts" // Custom type definitions
+    "types/*.d.ts" // Add the directory containing your custom .d.ts file here
   ],
+  
   "exclude": ["node_modules"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

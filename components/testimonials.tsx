@@ -1,5 +1,8 @@
+"use client"
 import Image from 'next/image'
 import TestimonialImage from '@/public/images/testimonial.jpg'
+import WidgetBot from '@widgetbot/react-embed'
+import RevenuePotential from './RevenueCalculator/RevenueCalculator'
 
 export default function Testimonials() {
   return (
@@ -36,10 +39,11 @@ export default function Testimonials() {
 
             {/* Item */}
             <div>
-            <iframe src="https://roadmap.sh/r/embed?id=6643bee5662f1deb34421396" width="100%" height="500px" frameBorder="0"></iframe>
+            <RevenuePotential />        
             </div>
 
           </div>
+          <RevenuePotential /> 
 
           {/* Testimonials */}
           <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
@@ -51,7 +55,7 @@ export default function Testimonials() {
                   <svg className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-blue-500" viewBox="0 0 64 64" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
                     <path d="M37.89 58.338c-2.648-5.63-3.572-10.045-2.774-13.249.8-3.203 8.711-13.383 23.737-30.538l2.135.532c-6.552 10.033-10.532 17.87-11.939 23.515-.583 2.34.22 6.158 2.41 11.457l-13.57 8.283zm-26.963-6.56c-2.648-5.63-3.572-10.046-2.773-13.25.799-3.203 8.71-13.382 23.736-30.538l2.136.533c-6.552 10.032-10.532 17.87-11.94 23.515-.583 2.339.22 6.158 2.41 11.456l-13.57 8.283z" />
                   </svg>
-                  <Image className="relative rounded-full" src={TestimonialImage} width={96} height={96} alt="Testimonial 01" />
+                  <Image className="relative rounded-full" src="https://s2.tokeninsight.com/static/bulletinCover/GrGmuXo0_400x400.png" width={96} height={96} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
                   “ Adding financial services increases revenue per user by 2 to 5x. “

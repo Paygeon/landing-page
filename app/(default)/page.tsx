@@ -12,6 +12,7 @@ import { HeroScrollDemo } from '@/components/container-scroll-animation/HeroScro
 import Section from '@/components/Section'
 import Graph from '@/components/animations/graph/Graph'
 import { LampDemo } from '@/components/lamp/lamp'
+import WidgetBot from '@widgetbot/react-embed'
 
 
 export default function Home() {
