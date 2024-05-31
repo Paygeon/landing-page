@@ -1,0 +1,154 @@
+@font-face { 
+    font-family:gilroy-regular;
+    src:url("https://web-assets.cred.club/v2/_next/assets/fonts/Gilroy-Regular.woff") format("woff"), url("https://web-assets.cred.club/v2/_next/assets/fonts/Gilroy-Regular.woff2") format("woff2");
+    font-weight:400;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:denton;
+    src:url("https://web-assets.cred.club/v2/_next/assets/fonts/Denton-Light.woff") format("woff"), url("https://web-assets.cred.club/v2/_next/assets/fonts/Denton-Light.woff2") format("woff2");
+    font-weight:400;
+    font-display:auto;
+    font-style:normal;
+    font-stretch:normal;
+  } 
+  @font-face { 
+    font-family:denton;
+    src:url("https://web-assets.cred.club/v2/_next/assets/fonts/Denton-LightItalic.woff") format("woff"), url("https://web-assets.cred.club/v2/_next/assets/fonts/Denton-LightItalic.woff2") format("woff2");
+    font-weight:400;
+    font-display:auto;
+    font-style:italic;
+    font-stretch:normal;
+  } 
+  @font-face { 
+    font-family:denton;
+    src:url("https://web-assets.cred.club/v2/_next/assets/fonts/Denton-Regular.woff") format("woff"), url("https://web-assets.cred.club/v2/_next/assets/fonts/Denton-Regular.woff2") format("woff2");
+    font-weight:500;
+    font-display:auto;
+    font-style:normal;
+    font-stretch:normal;
+  } 
+  @font-face { 
+    font-family:denton;
+    src:url("https://web-assets.cred.club/v2/_next/assets/fonts/Denton-RegularItalic.woff") format("woff"), url("https://web-assets.cred.club/v2/_next/assets/fonts/Denton-RegularItalic.woff2") format("woff2");
+    font-weight:500;
+    font-display:auto;
+    font-style:italic;
+    font-stretch:normal;
+  } 
+  @font-face { 
+    font-family:denton;
+    src:url("https://web-assets.cred.club/v2/_next/assets/fonts/Denton-Medium.woff") format("woff"), url("https://web-assets.cred.club/v2/_next/assets/fonts/Denton-Medium.woff2") format("woff2");
+    font-weight:600;
+    font-display:auto;
+    font-style:normal;
+    font-stretch:normal;
+  } 
+  @font-face { 
+    font-family:denton;
+    src:url("https://web-assets.cred.club/v2/_next/assets/fonts/Denton-MediumItalic.woff") format("woff"), url("https://web-assets.cred.club/v2/_next/assets/fonts/Denton-MediumItalic.woff2") format("woff2");
+    font-weight:600;
+    font-display:auto;
+    font-style:italic;
+    font-stretch:normal;
+  } 
+  @font-face { 
+    font-family:denton;
+    src:url("https://web-assets.cred.club/v2/_next/assets/fonts/Denton-Bold.woff") format("woff"), url("https://web-assets.cred.club/v2/_next/assets/fonts/Denton-Bold.woff2") format("woff2");
+    font-weight:700;
+    font-display:auto;
+    font-style:normal;
+    font-stretch:normal;
+  } 
+  @font-face { 
+    font-family:denton;
+    src:url("https://web-assets.cred.club/v2/_next/assets/fonts/Denton-BoldItalic.woff") format("woff"), url("https://web-assets.cred.club/v2/_next/assets/fonts/Denton-BoldItalic.woff2") format("woff2");
+    font-weight:700;
+    font-display:auto;
+    font-style:italic;
+    font-stretch:normal;
+  } 
+  @font-face { 
+    font-family:denton;
+    src:url("https://web-assets.cred.club/v2/_next/assets/fonts/Denton-ExtraBold.woff") format("woff"), url("https://web-assets.cred.club/v2/_next/assets/fonts/Denton-ExtraBold.woff2") format("woff2");
+    font-weight:800;
+    font-display:auto;
+    font-style:normal;
+    font-stretch:normal;
+  } 
+  @font-face { 
+    font-family:denton;
+    src:url("https://web-assets.cred.club/v2/_next/assets/fonts/Denton-ExtraBoldItalic.woff") format("woff"), url("https://web-assets.cred.club/v2/_next/assets/fonts/Denton-ExtraBoldItalic.woff2") format("woff2");
+    font-weight:800;
+    font-display:auto;
+    font-style:italic;
+    font-stretch:normal;
+  } 
+  @font-face { 
+    font-family:gilroy;
+    src:url(https://web-assets.cred.club/assets/fonts/Gilroy-Regular.woff) format("woff"),url(https://web-assets.cred.club/assets/fonts/Gilroy-Regular.woff2) format("woff2");
+    font-weight:400;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:gilroy;
+    src:url(https://web-assets.cred.club/assets/fonts/Gilroy-Medium.woff) format("woff"),url(https://web-assets.cred.club/assets/fonts/Gilroy-Medium.woff2) format("woff2");
+    font-weight:500;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:gilroy;
+    src:url(https://web-assets.cred.club/assets/fonts/Gilroy-Bold.woff) format("woff"),url(https://web-assets.cred.club/assets/fonts/Gilroy-Bold.woff2) format("woff2");
+    font-weight:600;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:gilroy;
+    src:url(https://web-assets.cred.club/assets/fonts/Gilroy-SemiBold.woff) format("woff"),url(https://web-assets.cred.club/assets/fonts/Gilroy-SemiBold.woff2) format("woff2");
+    font-weight:700;
+    font-style:normal;
+  } 
+  @font-face{font-family:'cirka-bold';
+    src:url('../../public/assets/fonts/Cirka-Bold.otf') format('otf');
+    font-weight:normal;
+    font-style:normal;}/*!sc*/
+
+
+  body {
+    font-family: 'cirka-bold', sans-serif; /* Use the custom font */
+  }
+
+.my-background {
+    margin: 0;
+    padding: 200pt;
+    background-color: black;
+    font-family: 'cirka-bold', sans-serif;  
+    font-size: 85pt;
+    color: white;
+  }
+  
+  .scroll-reveal span {
+    color: hsla(0, 0%, 100%, 0.2);
+    background-clip: text;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-image: linear-gradient(90deg, white, white);
+    animation: scroll-reveal linear forwards;
+    animation-timeline: view(y);
+  }
+  
+  @keyframes scroll-reveal {
+    to {
+      background-size: 100% 100%;
+    }
+  }
+  
+  .reveal {
+    animation-range-start: cover 10vh;
+    animation-range-end: cover 30vh;
+  }
+  
+  p {
+    font-size: 150px;
+  }
+  

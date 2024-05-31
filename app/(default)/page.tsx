@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - Simple',
-  description: 'Page description',
+  title: 'Home - HEY MICHAEL!',
+  description: 'I KNOW TYPESCRIPT',
 }
 
 import Hero from '@/components/hero'
@@ -12,14 +12,19 @@ import { HeroScrollDemo } from '@/components/container-scroll-animation/HeroScro
 import Section from '@/components/Section'
 import Graph from '@/components/animations/graph/Graph'
 import { LampDemo } from '@/components/lamp/lamp'
-import WidgetBot from '@widgetbot/react-embed'
+
+import ScrollReveal from '@/components/TextScrollReveal/ScrollObserver'
+
 
 
 export default function Home() {
+  const sentences = ["At Fintech Sucks, trust is our foundation. Fintech startups overlook supporters, but not us. Our platform offers entrepreneurs a transparent way to build and grow. Help us create a future based on trust and transparency."];
+  const combinedSentence = sentences.join(" ");
   return (
     <>
      
       <Hero />
+      <ScrollReveal sentence={sentences} />
       <HeroScrollDemo description={'https://loan.aestheticscard.com'} />
       <Features />
       <FeaturesBlocks />
