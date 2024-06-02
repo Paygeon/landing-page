@@ -52,11 +52,6 @@ const RevenuePotential: React.FC = () => {
   return (
     <div className="flex flex-wrap">
       <div className="w-full max-w-xl mx-auto mb-12">
-        <h2 className="text-center text-2xl font-semibold mb-4">Revenue Potential</h2>
-        <p className="text-center text-base mb-8">
-          Every time your users draw from their credit line, you will receive <strong>up to 1%</strong> on all draw downs!<br />
-          Use the interactive model below to estimate your revenue potential.
-        </p>
         <input type="hidden" id="interchange" value=".01" />
       </div>
       <div className="w-full flex flex-wrap items-center justify-center">

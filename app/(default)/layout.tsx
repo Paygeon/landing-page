@@ -6,7 +6,6 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 import Footer from '@/components/ui/footer'
-import WidgetBot from '@widgetbot/react-embed'
 
 export default function DefaultLayout({
   children,
@@ -25,13 +24,9 @@ export default function DefaultLayout({
 
   return (
     <>
-      <main className="grow">
+      <main>
 
         {children}
-      <WidgetBot 
-       server="1243020756292730953" // Carat Card Club 
-       channel="1243020756728680581" // #general
-      />
 
       </main>
 

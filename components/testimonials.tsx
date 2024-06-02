@@ -1,7 +1,6 @@
 "use client"
 import Image from 'next/image'
 import TestimonialImage from '@/public/images/testimonial.jpg'
-import WidgetBot from '@widgetbot/react-embed'
 import RevenuePotential from './RevenueCalculator/RevenueCalculator'
 
 export default function Testimonials() {
@@ -30,8 +29,9 @@ export default function Testimonials() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h2 className="h2 mb-4">Do you even dev?</h2>
-            <p className="text-xl text-gray-600" data-aos="zoom-y-out">You can build it yourself, or we can build it for you for only $̶5̶0̶0̶  $75 (Limited Time...)</p>
+            <h2 className="h2 mb-4">Revenue Potential</h2>
+            <p className="text-xl text-gray-600" data-aos="zoom-y-out">Every time your users draw from their credit line, you will receive <strong>up to 1%</strong> on all draw downs!
+          Use the interactive model below to estimate your revenue potential.</p>
           </div>
 
           {/* Items */}
@@ -43,7 +43,6 @@ export default function Testimonials() {
             </div>
 
           </div>
-          <RevenuePotential /> 
 
           {/* Testimonials */}
           <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">

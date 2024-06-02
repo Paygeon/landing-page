@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - HEY MICHAEL!',
-  description: 'I KNOW TYPESCRIPT',
+  title: 'Home - Fintech Sucks!',
+  description: 'Online fintech-as-a-Service',
 }
 
 import Hero from '@/components/hero'
@@ -34,7 +34,7 @@ export default function Home() {
           description="The only open source project with rev-share built in:"
           listItems={["Interchange", "Recurring", "Origination Fees"]}
       />
-      <LampDemo description={'Integrations <br /> built in'} />
+      <LampDemo description={''} />
       <Testimonials />
       <Newsletter />
   
