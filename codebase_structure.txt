@@ -1,11 +1,11 @@
 landing-page/
     .gitignore
+    .gitpod.yml
     CHANGELOG.md
     README.md
     codebase_structure.txt
     generate-tree.py
     index.html
-    next-env.d.ts
     next.config.js
     package-lock.json
     package.json
@@ -14,19 +14,15 @@ landing-page/
     tailwind.config.ts
     tsconfig.json
     tsconfig.node.json
-    vite.config.ts
-    .env.local
+    next-env.d.ts
     .github/
         dependabot.yml
     .vscode/
         settings.json
     app/
         layout.tsx
-        page.tsx
         (auth)/
             layout.tsx
-            dashboard/
-                page.tsx
             reset-password/
                 page.tsx
             signin/
@@ -48,12 +44,9 @@ landing-page/
                 utility-patterns.css
         legal/
             page.tsx
-        pages/
-        perks/
-            page.tsx
     components/
         3d-pin.tsx
-        _resets.module.scss
+        Section.tsx
         banner.tsx
         features-blocks.tsx
         features.tsx
@@ -63,35 +56,6 @@ landing-page/
         testimonials.tsx
         3d-card/
             3d-card.tsx
-        Dashboard/
-            Dashboard.module.scss
-            Dashboard.tsx
-            RectangleIcon.tsx
-            SubtractIcon.tsx
-            TopSectionIcon.tsx
-            _500Neopop1Icon.tsx
-            ArrowButtonArrow_ButtonArrowRi/
-                ArrowButtonArrow_ButtonArrowRi.module.scss
-                ArrowButtonArrow_ButtonArrowRi.tsx
-                VectorIcon.tsx
-            OfferCard/
-                OfferCard.module.scss
-                OfferCard.tsx
-                SubtractIcon.tsx
-                TopSectionIcon.tsx
-                _500Neopop1Icon.tsx
-            Products/
-                Products.module.scss
-                Products.tsx
-                VectorIcon.tsx
-            TheGoodStuffFull/
-                Cash11Icon.tsx
-                Frame31Icon.tsx
-                Frame32Icon.tsx
-                Frame3Icon.tsx
-                ReactIconsBsdiscordIcon.tsx
-                TheGoodStuffFull.module.scss
-                TheGoodStuffFull.tsx
         FundingWidget/
             FrameIcon.tsx
             FrameIcon2.tsx
@@ -101,15 +65,23 @@ landing-page/
             FundingWidget.tsx
             ModalTrigger.module.scss
             ScrollUpIcon.tsx
+        RevenueCalculator/
+            RevenueCalculator.tsx
+            RevenuePotential.module.css
+        TextScrollReveal/
+            ScrollObserver.tsx
+            ScrollReveal.css
         animations/
             are-you-ready-lottie/
                 Are You Ready Lottie.json
                 are-you-ready-lottie.tsx
             camera-lottie/
                 CameraLottie.tsx
+            graph/
+                Graph.css
+                Graph.tsx
             iframe/
                 PerksMarketplace.tsx
-                StoryIframe.tsx
         bento-grid/
             bento-grid.tsx
         container-scroll-animation/
@@ -122,16 +94,20 @@ landing-page/
             evervault-card.tsx
         github-button/
             github-button.tsx
+        lamp/
+            lamp.tsx
         legal/
             legal.tsx
         ui/
             3d-card.tsx
             3d-pin.tsx
+            InstallInstructions.tsx
             bento-grid.tsx
             container-scroll-animation.tsx
             evervault-card.tsx
             footer.tsx
             header.tsx
+            lamp.tsx
             logo.tsx
             mobile-menu.tsx
             privacy-policy.tsx
@@ -146,6 +122,10 @@ landing-page/
             imageedit_73_77701851401.png
             logoNextjs1.png
             r1.png
+            fonts/
+                Cirka-Bold.otf
+                Cirka-Light.otf
+                Cirka-Variable.ttf
         images/
             features-bg.png
             features-element.png
@@ -154,21 +134,7 @@ landing-page/
         videos/
             home-desktop.mp4
             video.mp4
-    src/
-        App.module.scss
-        App.tsx
-        favicon.svg
-        main.tsx
-        resets.scss
-        vite-env.d.ts
-    types/
-        custom.d.ts
-        html-attributes.d.ts
     utils/
         accordion.tsx
         cn.ts
         dropdown.tsx
-        supabase/
-            server.ts
-            client.ts
-            middleware.ts

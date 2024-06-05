@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import '../animations/graph/Graph.css'
+import * as React from 'react'
 
 export default function Logo() {
   return (

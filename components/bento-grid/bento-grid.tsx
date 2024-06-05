@@ -1,6 +1,6 @@
 "use client";
 import { cn } from "../../utils/cn";
-import React from "react";
+import * as React from "react";
 import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
 import {
   IconBoxAlignRightFilled,
@@ -197,7 +197,7 @@ const SkeletonFour = () => {
           className="full h-15 w-25"
         />
         <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
-          Chase® Business Credit Card
+          Custom Business Charge Card
         </p>
         <p className="border border-red-500 bg-red-100 dark:bg-red-900/20 text-red-600 text-xs rounded-full px-2 py-0.5 mt-4">
           Very Low
@@ -212,7 +212,7 @@ const SkeletonFour = () => {
           className="full h-15 w-25"
         />
         <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
-          Revenued Card
+          Custom Corporate Charge Card
         </p>
         <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
           High
@@ -298,7 +298,7 @@ const SkeletonFive = () => {
 };
 const items = [
   {
-    title: "Beautiful Loan Widget",
+    title: "Beautiful Loan Application",
     description: (
       <span className="text-sm">
         Embed the loan application experience on your platform.
@@ -309,10 +309,10 @@ const items = [
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Application Metrics",
+    title: "Automation Built-In",
     description: (
       <span className="text-sm">
-        Coming Soon...
+        Full loan servicing is 100% turn key and automated.
       </span>
     ),
     header: <SkeletonTwo />,
@@ -331,10 +331,10 @@ const items = [
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Credit Card Marketplace",
+    title: "Craft Your Own Credit Card Program",
     description: (
       <span className="text-sm">
-        Embed a full business credit card marketplace with one line of code.
+        Embed a fully branded credit card program with one line of code.
       </span>
     ),
     header: <SkeletonFour />,

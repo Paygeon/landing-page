@@ -59,8 +59,7 @@ module.exports = {
         '3/4': '75%',
         '1/1': '100%',
       },
-      fontFamily: {
-        inter: ['var(--font-inter)', 'sans-serif'], 
+      fontFamily: { 
         cirka: ['cirka-bold', 'sans-serif'],
         gilroy: ['gilroy-regular', 'sans-serif'],
         denton: ['denton', 'serif'],

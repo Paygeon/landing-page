@@ -1,28 +1,35 @@
 /* Switch element */
 .form-switch {
-    @apply relative select-none;
+    position: relative;
+    user-select: none;
     width: 68px;
 }
 
 .form-switch label {
-    @apply block overflow-hidden cursor-pointer rounded;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 0.25rem;
     height: 38px;
 }
 
-.form-switch label>span:first-child {
-    @apply absolute block rounded shadow;
+.form-switch label > span:first-child {
+    position: absolute;
+    display: block;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
     width: 30px;
     height: 30px;
     top: 4px;
     left: 4px;
     right: 50%;
-    transition: all .15s ease-out;
+    transition: all 0.15s ease-out;
 }
 
-.form-switch input[type="checkbox"]:checked+label {
-    @apply bg-blue-600;
+.form-switch input[type="checkbox"]:checked + label {
+    background-color: #2563eb;
 }
 
-.form-switch input[type="checkbox"]:checked+label>span:first-child {
+.form-switch input[type="checkbox"]:checked + label > span:first-child {
     left: 34px;
 }

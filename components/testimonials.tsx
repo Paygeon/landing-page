@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import TestimonialImage from '@/public/images/testimonial.jpg'
 import RevenuePotential from './RevenueCalculator/RevenueCalculator'
+import * as React from 'react'
 
 export default function Testimonials() {
   return (

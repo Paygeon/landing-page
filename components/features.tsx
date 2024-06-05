@@ -8,6 +8,7 @@ import FeaturesElement from '@/public/images/features-element.png'
 import { AnimatedPinDemo } from './3d-pin'
 import { EvervaultCardDemo } from './evervault-card/evervault-card'
 import { ThreeDCardDemo } from './3d-card/3d-card'
+import * as React from 'react'
 
 export default function Features() {
   
@@ -35,8 +36,8 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Features</h1>
-            <p className="text-xl text-gray-600">We bring the product, you bring the clients. You bring the feedback, we bring the updates. Let's change the world!</p>
+            <h1 className="h2 mb-4">Why Choose Us?</h1>
+            <p className="text-xl text-gray-600">We have created the new gold standard in fintech-as-a-service!</p>
           </div>
 
           {/* Section content */}
@@ -45,7 +46,7 @@ export default function Features() {
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">Powerful suite of widgets</h3>
+                <h3 className="h3 mb-3">How are we the gold standard?</h3>
                 <p className="text-xl text-gray-600">Add new products and services to your inventory as quickly as embedding a few lines of code (no APIs needed).</p>
               </div>
               {/* Tabs buttons */}
@@ -56,14 +57,14 @@ export default function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Corporate Cards</div>
-                    <div className="text-gray-600">Like Brex, offer your own branded corporate credit and debit cards and earn up to 1% recurring revenue.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Quick Setup</div>
+                    <div className="text-gray-600">Have your custom branded loan application live on your domain within the next 20 minutes.</div>
                   </div>
 
                   <img
-                   src="https://vashong.github.io/widgets/images/R-ezgif.com-resize.gif"
-                   className="w-15 h-5 fill-current rounded-full w-50 h-50"
-                   alt="Credit Karma Tax Icon"
+                   src="https://vashong.github.io/widgets/images/icons/Payment%20history.svg"
+                   className="w-20 h-15 fill-current"
+                   alt="Time Icon"
                   />
               
                   </a>
@@ -73,13 +74,13 @@ export default function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Loan Application Widget</div>
-                    <div className="text-gray-600">Like Lendio, be a source of capital for your users and increase client stickiness.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Built-in credit engine</div>
+                    <div className="text-gray-600">All applications go through our powerfull credit engine to provide your users with quick approvals.</div>
                   </div>
                   <img
-                   src="https://vashong.github.io/widgets/images/Lendio-1024x263.png"
-                   className="w-15 h-5 fill-current"
-                   alt="Icon"
+                   src="https://vashong.github.io/widgets/images/icons/credit%20score%20(2).svg"
+                   className="w-20 h-15 fill-current rounded-full w-50 h-50"
+                   alt="Credit Score Icon"
                   />
                 </a>
                 <a
@@ -88,13 +89,13 @@ export default function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Cryptocurrency Billpay</div>
-                    <div className="text-gray-600">Like Bit Pay, give your users more ways to pay using their mobile phones.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Turn key white label</div>
+                    <div className="text-gray-600">Everything is free, open source, and white labeled out of the box.</div>
                   </div>
                
-                    <img src="https://vashong.github.io/widgets/images/bitpay.png" 
-                    className="w-55 h-20 fill-current" 
-                    alt="BitPay Icon" 
+                    <img src="https://vashong.github.io/widgets/images/icons/support.svg" 
+                    className="w-25 h-25 fill-current"
+                    alt="Support Icon" 
                     /> 
                 
                 </a>

@@ -145,7 +145,7 @@
   
   .reveal {
     animation-range-start: cover 10vh;
-    animation-range-end: cover 30vh;
+    animation-range-end: cover 10vh;
   }
   
   p {

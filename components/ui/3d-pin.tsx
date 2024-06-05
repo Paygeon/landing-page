@@ -1,7 +1,8 @@
 "use client";
-import React, { useState } from "react";
+import * as React from "react";
 import { motion } from "framer-motion";
 import { cn } from "../../utils/cn";
+import { useState } from "react";
 
 export const PinContainer = ({
   children,

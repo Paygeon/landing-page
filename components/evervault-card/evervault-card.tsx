@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import { EvervaultCard, Icon } from "../ui/evervault-card";
 
 export function EvervaultCardDemo() {

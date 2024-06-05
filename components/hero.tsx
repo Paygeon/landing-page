@@ -1,8 +1,8 @@
 import VideoThumb from '@/public/images/hero-image.png'
-import ModalVideo from '@/components/modal-video'
 import DiscordButton from './discord-button/DiscordButton'
 import GithubButton from './github-button/github-button'
 import InstallInstructions from './ui/InstallInstructions'
+import * as React from 'react'
 
 export default function Hero() {
   return (

@@ -1,7 +1,8 @@
 "use client"
-import React, { useState } from 'react';
+import * as React from 'react';
 import TermsContent from '../ui/terms-conditions';
 import PrivacyPolicyContent from '../ui/privacy-policy';
+import { useState } from 'react';
 
 interface MenuItem {
     title: string;

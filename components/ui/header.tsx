@@ -4,10 +4,10 @@ import { useState, useEffect } from 'react'
 
 import Link from 'next/link'
 import Logo from './logo'
-import Dropdown from '@/utils/dropdown'
 import MobileMenu from './mobile-menu'
 import GithubButton from '../github-button/github-button'
 import DiscordButton from '../discord-button/DiscordButton'
+import * as React from 'react'
 
 export default function Header() {
 

@@ -1,3 +1,4 @@
+import * as React from 'react'
 import Logo from './logo'
 
 export default function Footer() {
@@ -21,48 +22,10 @@ export default function Footer() {
          
 
           {/* 3rd block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
-            <ul className="text-sm">
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Documentation</a>
-              </li>
-              <li className="mb-2">
-                <a href="perks" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Perks</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Blog</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Support Center</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Partners</a>
-              </li>
-            </ul>
-          </div>
+          
 
           {/* 4th block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Company</h6>
-            <ul className="text-sm">
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Home</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">About us</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Company values</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Pricing</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</a>
-              </li>
-            </ul>
-          </div>
+          
 
           {/* 5th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
@@ -119,12 +82,7 @@ export default function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">&copy; Cruip.com. All rights reserved. Advertisement Disclosure : BusinessLoans.com is a marketing Lead Generator, with its main office located at SSBV LLC c/o The Corporation Trust Co, Corporation Trust Center 1209 Orange St., Wilmington, Delaware 19801, Telephone 844.585.0656. Advertised Terms and Information
-The information and disclosures above relate to terms that are advertised by or through BusinessLoans.com.
-The interest rates and terms provided on BusinessLoans.com are from a lender or lenders with whom BusinessLoans.com may match you and that offer the particular product. The disclosures are current as of the date indicated.
-BusinessLoans.com is not a lender in any transaction and does not make loans, loan commitments or lock-rates. All credit decisions, including loan approval and the conditional rates and terms you are offered, are the responsibility of the participating lenders and will vary based upon your loan request, your particular financial situation, and criteria determined by the lenders to whom you are matched. Not all merchants will qualify for the advertised rates and terms.
-The offers that appear on this site are from companies from which BusinessLoans.com receives compensation. This compensation may impact how and where products appear on this site (including, for example, the order in which they appear). BusinessLoans.com does not include all companies or all offers available in the marketplace.
-You may not be matched with a lender making a particular conditional loan offer, and BusinessLoans.com does not guarantee that any lender will make you a conditional loan offer. BusinessLoans.com arranges for multiple conditional loan offers through its network of nonaffiliated lenders. The Terms of Use Agreement governs the advertised terms and information.</div>
+          <div className="text-sm text-gray-600 mr-4">&copy; Carat Card Club d/b/a Fintech.Sucks. All rights reserved.</div>
 
         </div>
 

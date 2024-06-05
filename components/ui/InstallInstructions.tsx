@@ -1,7 +1,8 @@
 "use client"
 
-import React, { useState } from 'react';
-import 'tailwindcss/tailwind.css';
+import * as React from 'react';
+import { useState } from 'react';
+import '../../app/css/style.css';
 
 const InstallInstructions: React.FC = () => {
   const [copied, setCopied] = useState(false);
