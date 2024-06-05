@@ -16,7 +16,7 @@ export function AnimatedPinDemo() {
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
             <span className="text-slate-500 ">
-              Apply at Corpay's secure website.
+              Apply at Corpays secure website.
             </span>
           </div>
           <div className="relative">

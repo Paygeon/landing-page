@@ -1,4 +1,4 @@
-"use client"
+'use client';
 
 import * as React from 'react';
 import { useState } from 'react';
@@ -89,7 +89,7 @@ const InstallInstructions: React.FC = () => {
       <div className="relative">
         <div className="box bg-gray-300 border-0 text-left mx-auto p-3 overflow-x-auto whitespace-nowrap rounded-lg">
           <code className="block bg-gray-300 border-0 rounded-lg text-xs leading-normal position-relative">
-            "@<span className="text-blue-700">paygeon</span>/<span className="text-green-500">loanapp</span>": "<span className="text-green-500">0.1.0</span>"
+          `&quot;`@<span className="text-blue-700">paygeon</span>/<span className="text-green-500">loanapp</span>`&quot;`: `&quot;`<span className="text-green-500">0.1.0</span>`&quot;`
           </code>
           <div className="clipboard-copy absolute top-1 right-1">
             <button
