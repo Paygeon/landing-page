@@ -2,16 +2,32 @@
 
 import { useState, useRef, useEffect } from 'react'
 import { Transition } from '@headlessui/react'
-import Image from 'next/image'
-import FeaturesBg from '@/public/images/features-bg.png'
-import FeaturesElement from '@/public/images/features-element.png'
 import { AnimatedPinDemo } from './3d-pin'
-import { EvervaultCardDemo } from './evervault-card/evervault-card'
-import { ThreeDCardDemo } from './3d-card/3d-card'
 import * as React from 'react'
+import Loan from './LoanWidget/LoanWidget'
+
+// Define the CustomTransition component
+const CustomTransition: React.FC<React.PropsWithChildren<{
+  show: boolean;
+  appear: boolean;
+  className?: string;
+  enter: string;
+  enterFrom: string;
+  enterTo: string;
+  leave: string;
+  leaveFrom: string;
+  leaveTo: string;
+  beforeEnter: () => void;
+  unmount: boolean;
+}>> = ({
+  className,
+  ...props
+}) => {
+  return <Transition {...props} />;
+};
 
 export default function Features() {
-  
+
   const [tab, setTab] = useState<number>(1)
 
   const tabs = useRef<HTMLDivElement>(null)
@@ -22,7 +38,7 @@ export default function Features() {
 
   useEffect(() => {
     heightFix()
-  }, []) 
+  }, [])
 
   return (
     <section className="relative">
@@ -66,8 +82,8 @@ export default function Features() {
                    className="w-20 h-15 fill-current"
                    alt="Time Icon"
                   />
-              
-                  </a>
+
+                </a>
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
@@ -92,12 +108,12 @@ export default function Features() {
                     <div className="font-bold leading-snug tracking-tight mb-1">Turn key white label</div>
                     <div className="text-gray-600">Everything is free, open source, and white labeled out of the box.</div>
                   </div>
-               
-                    <img src="https://vashong.github.io/widgets/images/icons/support.svg" 
+
+                    <img src="https://vashong.github.io/widgets/images/icons/support.svg"
                     className="w-25 h-25 fill-current"
-                    alt="Support Icon" 
-                    /> 
-                
+                    alt="Support Icon"
+                    />
+
                 </a>
               </div>
             </div>
@@ -107,7 +123,7 @@ export default function Features() {
               <div className="transition-all">
                 <div className="relative flex flex-col text-center lg:text-right" data-aos="zoom-y-out" ref={tabs}>
                   {/* Item 1 */}
-                  <Transition
+                  <CustomTransition
                     show={tab === 1}
                     appear={true}
                     className="w-full"
@@ -118,14 +134,14 @@ export default function Features() {
                     leaveFrom="opacity-100 translate-y-0"
                     leaveTo="opacity-0 -translate-y-16"
                     beforeEnter={() => heightFix()}
-                    unmount={false}                     
+                    unmount={false}
                   >
                     <div className="relative inline-flex flex-col">
                       <AnimatedPinDemo />
                     </div>
-                  </Transition>
+                  </CustomTransition>
                   {/* Item 2 */}
-                  <Transition
+                  <CustomTransition
                     show={tab === 2}
                     appear={true}
                     className="w-full"
@@ -136,14 +152,14 @@ export default function Features() {
                     leaveFrom="opacity-100 translate-y-0"
                     leaveTo="opacity-0 -translate-y-16"
                     beforeEnter={() => heightFix()}
-                    unmount={false}                     
+                    unmount={false}
                   >
                     <div className="relative inline-flex flex-col">
                       <img src="https://vashong.github.io/widgets/images/650922c18bc322ab5b46780c_Group%2050%20(1).svg"/>
                     </div>
-                  </Transition>
+                  </CustomTransition>
                   {/* Item 3 */}
-                  <Transition
+                  <CustomTransition
                     show={tab === 3}
                     appear={true}
                     className="w-full"
@@ -154,12 +170,12 @@ export default function Features() {
                     leaveFrom="opacity-100 translate-y-0"
                     leaveTo="opacity-0 -translate-y-16"
                     beforeEnter={() => heightFix()}
-                    unmount={false}                     
+                    unmount={false}
                   >
                     <div className="relative inline-flex flex-col">
-                      <ThreeDCardDemo />
+                      <Loan />
                     </div>
-                  </Transition>
+                  </CustomTransition>
                 </div>
               </div>
             </div>
